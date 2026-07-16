@@ -71,7 +71,7 @@ let currentTab = "";
 
 function loadResources() {
 
-    $.getJSON('json/events.json?95').done(function (json) {
+    $.getJSON('json/events.json?96').done(function (json) {
         event_config = json;
         checkResources();
     });
@@ -86,7 +86,7 @@ function loadResources() {
         checkResources();
     });
 
-    $.getJSON('json/strings.json?359').done(function (json) {
+    $.getJSON('json/strings.json?360').done(function (json) {
         language_strings = json;
         checkResources();
     });
@@ -1704,7 +1704,7 @@ function CalculateItemPurchases() {
             event_data.currency_needed["Moonlight_Festival_Voucher"] = event_data.currency_needed["Moonlight_Festival_Firecrackers"] * 270;
         }
 
-        if (current_event == "secret-midnight-party") {
+        if (current_event == "secret-midnight-party" || current_event == "secret-midnight-party-rerun") {
             event_data.currency_needed["Youkai_MAX_Umeboshi_Flavor"] = event_data.currency_needed["BOOM_Classic_Collection"] * 270;
         }
 

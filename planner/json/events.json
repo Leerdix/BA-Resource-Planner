@@ -1,6 +1,6 @@
 {
     "event_order": [
-        "game-dev-department-cleanup-mission"
+        "secret-midnight-party-rerun"
     ],
     "events": {
         "magical-girl-trinity": {
@@ -25455,6 +25455,986 @@
                     "type": "XpReport",
                     "id": "XP_4",
                     "count": 9
+                }
+            ]
+        },
+        "secret-midnight-party-rerun": {
+            "active": true,
+            "icon": "Event_842_Jp.png",
+            "display_name": "Secret Midnight Party",
+            "reset_time": 1783969200,
+            "start_time": 1783994400,
+            "end_time": 1784599200,
+            "maint_hours": 6,
+            "available_targets": [
+                "Shop",
+                "Materials",
+                "Currency",
+                "Manual"
+            ],
+            "currency_targets": [
+                "Youkai_MAX_Umeboshi_Flavor"
+            ],
+            "event_point_target": 0,
+            "currencies": {
+                "Youkai_MAX_Umeboshi_Flavor": {
+                    "icon": "Youkai_MAX_Umeboshi_Flavor.png",
+                    "shortname": "Youkai MAX Umeboshi Flavor",
+                    "source": "StageDrop",
+                    "clear": 0,
+                    "bonus_units": [
+                        {
+                            "id": "20056",
+                            "bonus": 0.3
+                        },
+                        {
+                            "id": "10108",
+                            "bonus": 0.25
+                        },
+                        {
+                            "id": "10109",
+                            "bonus": 0.25
+                        },
+                        {
+                            "id": "13010",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10053",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10052",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10063",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10085",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "26001",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10084",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10007",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "20020",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "10008",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "10026",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "16001",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "10028",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "20001",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "10027",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "13000",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "20019",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "10062",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "10067",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "10012",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "10001",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "20032",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "13011",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "10094",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "10016",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "10095",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "10015",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "10066",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "10018",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "26009",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "23004",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "10051",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "20000",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "16010",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "16002",
+                            "bonus": 0.1
+                        },
+                        {
+                            "id": "10076",
+                            "bonus": 0.1
+                        }
+                    ]
+                },
+                "Fluffy_Pillow": {
+                    "icon": "Fluffy_Pillow.png",
+                    "shortname": "Fluffy Pillow",
+                    "source": "StageDrop",
+                    "clear": 18245,
+                    "bonus_units": [
+                        {
+                            "id": "10109",
+                            "bonus": 0.3
+                        },
+                        {
+                            "id": "20056",
+                            "bonus": 0.25
+                        },
+                        {
+                            "id": "10108",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10053",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10052",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "20013",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10084",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "20020",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10008",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "16001",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "20001",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "13000",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10062",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10012",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10094",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10095",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10066",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "26009",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10051",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "16010",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10076",
+                            "bonus": 0.15
+                        }
+                    ]
+                },
+                "New_Card_Pack": {
+                    "icon": "New_Card_Pack.png",
+                    "shortname": "New Card Pack",
+                    "source": "StageDrop",
+                    "clear": 17650,
+                    "bonus_units": [
+                        {
+                            "id": "10108",
+                            "bonus": 0.3
+                        },
+                        {
+                            "id": "20056",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10109",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "13010",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10063",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "20013",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10085",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "26001",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10007",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10026",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10028",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10027",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "20019",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10067",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10001",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "20032",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "13011",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10016",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10015",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "10018",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "23004",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "20000",
+                            "bonus": 0.15
+                        },
+                        {
+                            "id": "16002",
+                            "bonus": 0.15
+                        }
+                    ]
+                },
+                "BOOM_Classic_Collection": {
+                    "icon": "BOOM_Classic_Collection.png",
+                    "shortname": "BOOM Classic Collection",
+                    "source": "",
+                    "clear": 200,
+                    "bonus_units": []
+                }
+            },
+            "shops": {
+                "Fluffy_Pillow": [
+                    {
+                        "type": "XpReport",
+                        "id": "XP_1",
+                        "count": 90,
+                        "cost": 1,
+                        "amount": 3
+                    },
+                    {
+                        "type": "XpReport",
+                        "id": "XP_2",
+                        "count": 95,
+                        "cost": 3
+                    },
+                    {
+                        "type": "XpReport",
+                        "id": "XP_3",
+                        "count": 30,
+                        "cost": 12
+                    },
+                    {
+                        "type": "XpReport",
+                        "id": "XP_4",
+                        "count": 12,
+                        "cost": 60
+                    },
+                    {
+                        "type": "Material",
+                        "id": "3050",
+                        "count": 30,
+                        "cost": 10
+                    },
+                    {
+                        "type": "Material",
+                        "id": "3051",
+                        "count": 18,
+                        "cost": 30
+                    },
+                    {
+                        "type": "Material",
+                        "id": "3052",
+                        "count": 12,
+                        "cost": 100
+                    },
+                    {
+                        "type": "Material",
+                        "id": "3053",
+                        "count": 2,
+                        "cost": 300
+                    },
+                    {
+                        "type": "Material",
+                        "id": "210",
+                        "count": 60,
+                        "cost": 5
+                    },
+                    {
+                        "type": "Material",
+                        "id": "211",
+                        "count": 30,
+                        "cost": 15
+                    },
+                    {
+                        "type": "Material",
+                        "id": "212",
+                        "count": 12,
+                        "cost": 50
+                    },
+                    {
+                        "type": "Material",
+                        "id": "213",
+                        "count": 6,
+                        "cost": 200
+                    },
+                    {
+                        "type": "Gift",
+                        "id": "A-Pods_Pro",
+                        "count": 10,
+                        "cost": 200
+                    },
+                    {
+                        "type": "Gift",
+                        "id": "Wavecat_Pillow",
+                        "count": 10,
+                        "cost": 200
+                    },
+                    {
+                        "type": "Gift",
+                        "id": "Potted_Bug-Eating_Plant",
+                        "count": 10,
+                        "cost": 300
+                    },
+                    {
+                        "type": "Gift",
+                        "id": "Lace_Pillow",
+                        "count": 2,
+                        "cost": 300
+                    },
+                    {
+                        "type": "Furniture",
+                        "id": "My_Event075_Beanbagblue",
+                        "count": 1,
+                        "cost": 2000,
+                        "limited": true
+                    },
+                    {
+                        "type": "Furniture",
+                        "id": "My_Event089_Boardgamespace",
+                        "count": 1,
+                        "cost": 2000,
+                        "limited": true
+                    }
+                ],
+                "New_Card_Pack": [
+                    {
+                        "type": "XpReport",
+                        "id": "GXP_1",
+                        "count": 180,
+                        "cost": 1
+                    },
+                    {
+                        "type": "XpReport",
+                        "id": "GXP_2",
+                        "count": 95,
+                        "cost": 4
+                    },
+                    {
+                        "type": "XpReport",
+                        "id": "GXP_3",
+                        "count": 30,
+                        "cost": 15
+                    },
+                    {
+                        "type": "XpReport",
+                        "id": "GXP_4",
+                        "count": 12,
+                        "cost": 60
+                    },
+                    {
+                        "type": "Material",
+                        "id": "4050",
+                        "count": 50,
+                        "cost": 5
+                    },
+                    {
+                        "type": "Material",
+                        "id": "4051",
+                        "count": 38,
+                        "cost": 15
+                    },
+                    {
+                        "type": "Material",
+                        "id": "4052",
+                        "count": 25,
+                        "cost": 50
+                    },
+                    {
+                        "type": "Material",
+                        "id": "4053",
+                        "count": 15,
+                        "cost": 200
+                    },
+                    {
+                        "type": "Material",
+                        "id": "110",
+                        "count": 60,
+                        "cost": 5
+                    },
+                    {
+                        "type": "Material",
+                        "id": "111",
+                        "count": 30,
+                        "cost": 15
+                    },
+                    {
+                        "type": "Material",
+                        "id": "112",
+                        "count": 12,
+                        "cost": 50
+                    },
+                    {
+                        "type": "Material",
+                        "id": "113",
+                        "count": 6,
+                        "cost": 200
+                    },
+                    {
+                        "type": "Gift",
+                        "id": "Guns_Charm_and_Zeal",
+                        "count": 10,
+                        "cost": 200
+                    },
+                    {
+                        "type": "Gift",
+                        "id": "Classical_Poetry_Anthology",
+                        "count": 10,
+                        "cost": 200
+                    },
+                    {
+                        "type": "Gift",
+                        "id": "Wavecat_Pillow",
+                        "count": 10,
+                        "cost": 200
+                    },
+                    {
+                        "type": "Gift",
+                        "id": "Lace_Pillow",
+                        "count": 1,
+                        "cost": 300
+                    },
+                    {
+                        "type": "Furniture",
+                        "id": "My_Event075_Beanbagwhite",
+                        "count": 1,
+                        "cost": 2000,
+                        "limited": true
+                    }
+                ],
+                "BOOM_Classic_Collection": [
+                    {
+                        "type": "Pyroxene",
+                        "id": "Pyroxene-1200",
+                        "count": 1,
+                        "cost": 40,
+                        "amount": 1200
+                    },
+                    {
+                        "type": "Eligma",
+                        "id": "Eligma-5",
+                        "count": 20,
+                        "cost": 2,
+                        "amount": 5
+                    },
+                    {
+                        "type": "SecretTech",
+                        "id": "SecretTech",
+                        "count": 1,
+                        "cost": 20
+                    },
+                    {
+                        "type": "Eleph",
+                        "id": 10007,
+                        "count": 40,
+                        "cost": 1
+                    },
+                    {
+                        "type": "Credit",
+                        "id": "Credit-500000",
+                        "count": 3,
+                        "cost": 5,
+                        "amount": 500000
+                    },
+                    {
+                        "type": "Credit",
+                        "id": "Credit-200000",
+                        "count": 10,
+                        "cost": 3,
+                        "amount": 200000
+                    },
+                    {
+                        "type": "Credit",
+                        "id": "Credit-50000",
+                        "count": 15,
+                        "cost": 1,
+                        "amount": 50000
+                    }
+                ]
+            },
+            "stage_groups": [
+                "1-4",
+                "5-8",
+                "9-12"
+            ],
+            "stages": [
+                {
+                    "type": "Story",
+                    "level": 10,
+                    "number": 1,
+                    "cost": 10,
+                    "initial": {
+                        "Youkai_MAX_Umeboshi_Flavor": 275,
+                        "Fluffy_Pillow": 15
+                    }
+                },
+                {
+                    "type": "Story",
+                    "level": 11,
+                    "number": 2,
+                    "cost": 10,
+                    "initial": {
+                        "Youkai_MAX_Umeboshi_Flavor": 275,
+                        "New_Card_Pack": 15
+                    }
+                },
+                {
+                    "type": "Story",
+                    "level": 12,
+                    "number": 3,
+                    "cost": 10,
+                    "initial": {
+                        "Youkai_MAX_Umeboshi_Flavor": 275,
+                        "Fluffy_Pillow": 15
+                    }
+                },
+                {
+                    "type": "Story",
+                    "level": 13,
+                    "number": 4,
+                    "cost": 10,
+                    "initial": {
+                        "Youkai_MAX_Umeboshi_Flavor": 275,
+                        "New_Card_Pack": 15
+                    }
+                },
+                {
+                    "type": "Story",
+                    "level": 14,
+                    "number": 5,
+                    "cost": 10,
+                    "initial": {
+                        "Youkai_MAX_Umeboshi_Flavor": 275,
+                        "Fluffy_Pillow": 15
+                    }
+                },
+                {
+                    "type": "Story",
+                    "level": 15,
+                    "number": 6,
+                    "cost": 10,
+                    "initial": {
+                        "Youkai_MAX_Umeboshi_Flavor": 275,
+                        "New_Card_Pack": 15
+                    }
+                },
+                {
+                    "type": "Story",
+                    "level": 16,
+                    "number": 7,
+                    "cost": 10,
+                    "initial": {
+                        "Youkai_MAX_Umeboshi_Flavor": 275,
+                        "Fluffy_Pillow": 15
+                    }
+                },
+                {
+                    "type": "Story",
+                    "level": 17,
+                    "number": 8,
+                    "cost": 10,
+                    "initial": {
+                        "Youkai_MAX_Umeboshi_Flavor": 275,
+                        "New_Card_Pack": 15
+                    }
+                },
+                {
+                    "type": "Quest",
+                    "level": 23,
+                    "number": 1,
+                    "cost": 10,
+                    "group": 1,
+                    "initial": {
+                        "Youkai_MAX_Umeboshi_Flavor": 800,
+                        "Fluffy_Pillow": 50,
+                        "New_Card_Pack": 50
+                    },
+                    "drops": {
+                        "Youkai_MAX_Umeboshi_Flavor": 8,
+                        "Fluffy_Pillow": 5,
+                        "New_Card_Pack": 5,
+                        "Mandragora_1": 0.25,
+                        "Mandragora_2": 0.15
+                    }
+                },
+                {
+                    "type": "Quest",
+                    "level": 23,
+                    "number": 2,
+                    "cost": 10,
+                    "group": 1,
+                    "initial": {
+                        "Fluffy_Pillow": 200,
+                        "New_Card_Pack": 100
+                    },
+                    "drops": {
+                        "Youkai_MAX_Umeboshi_Flavor": 5,
+                        "Fluffy_Pillow": 8,
+                        "New_Card_Pack": 5,
+                        "Rohonc_1": 0.25,
+                        "Rohonc_2": 0.15
+                    }
+                },
+                {
+                    "type": "Quest",
+                    "level": 23,
+                    "number": 3,
+                    "cost": 10,
+                    "group": 1,
+                    "initial": {
+                        "Fluffy_Pillow": 100,
+                        "New_Card_Pack": 200
+                    },
+                    "drops": {
+                        "Youkai_MAX_Umeboshi_Flavor": 5,
+                        "Fluffy_Pillow": 5,
+                        "New_Card_Pack": 8,
+                        "Nebra_1": 0.25,
+                        "Nebra_2": 0.15
+                    }
+                },
+                {
+                    "type": "Quest",
+                    "level": 23,
+                    "number": 4,
+                    "cost": 10,
+                    "group": 1,
+                    "initial": {
+                        "Youkai_MAX_Umeboshi_Flavor": 1200
+                    },
+                    "drops": {
+                        "Youkai_MAX_Umeboshi_Flavor": 12,
+                        "Fluffy_Pillow": 3,
+                        "New_Card_Pack": 3,
+                        "Antikythera_1": 0.25,
+                        "Antikythera_2": 0.15
+                    }
+                },
+                {
+                    "type": "Quest",
+                    "level": 45,
+                    "number": 5,
+                    "cost": 15,
+                    "group": 2,
+                    "initial": {
+                        "Youkai_MAX_Umeboshi_Flavor": 800,
+                        "Fluffy_Pillow": 100,
+                        "New_Card_Pack": 100
+                    },
+                    "drops": {
+                        "Youkai_MAX_Umeboshi_Flavor": 15,
+                        "Fluffy_Pillow": 6,
+                        "New_Card_Pack": 6,
+                        "Mandragora_2": 0.25,
+                        "Mandragora_3": 0.08
+                    }
+                },
+                {
+                    "type": "Quest",
+                    "level": 45,
+                    "number": 6,
+                    "cost": 15,
+                    "group": 2,
+                    "initial": {
+                        "Fluffy_Pillow": 250,
+                        "New_Card_Pack": 150
+                    },
+                    "drops": {
+                        "Youkai_MAX_Umeboshi_Flavor": 6,
+                        "Fluffy_Pillow": 15,
+                        "New_Card_Pack": 6,
+                        "Rohonc_2": 0.25,
+                        "Rohonc_3": 0.08
+                    }
+                },
+                {
+                    "type": "Quest",
+                    "level": 45,
+                    "number": 7,
+                    "cost": 15,
+                    "group": 2,
+                    "initial": {
+                        "Fluffy_Pillow": 150,
+                        "New_Card_Pack": 250
+                    },
+                    "drops": {
+                        "Youkai_MAX_Umeboshi_Flavor": 6,
+                        "Fluffy_Pillow": 6,
+                        "New_Card_Pack": 15,
+                        "Nebra_2": 0.25,
+                        "Nebra_3": 0.08
+                    }
+                },
+                {
+                    "type": "Quest",
+                    "level": 45,
+                    "number": 8,
+                    "cost": 15,
+                    "group": 2,
+                    "initial": {
+                        "Youkai_MAX_Umeboshi_Flavor": 1600
+                    },
+                    "drops": {
+                        "Youkai_MAX_Umeboshi_Flavor": 23,
+                        "Fluffy_Pillow": 2,
+                        "New_Card_Pack": 2,
+                        "Antikythera_2": 0.25,
+                        "Antikythera_3": 0.08
+                    }
+                },
+                {
+                    "type": "Quest",
+                    "level": 80,
+                    "number": 9,
+                    "cost": 20,
+                    "group": 3,
+                    "initial": {
+                        "Youkai_MAX_Umeboshi_Flavor": 1200,
+                        "Fluffy_Pillow": 100,
+                        "New_Card_Pack": 100
+                    },
+                    "drops": {
+                        "Youkai_MAX_Umeboshi_Flavor": 28,
+                        "Fluffy_Pillow": 4,
+                        "New_Card_Pack": 4,
+                        "Mandragora_2": 0.25,
+                        "Mandragora_3": 0.12,
+                        "Mandragora_4": 0.021
+                    }
+                },
+                {
+                    "type": "Quest",
+                    "level": 80,
+                    "number": 10,
+                    "cost": 20,
+                    "group": 3,
+                    "initial": {
+                        "Youkai_MAX_Umeboshi_Flavor": 200,
+                        "Fluffy_Pillow": 450
+                    },
+                    "drops": {
+                        "Youkai_MAX_Umeboshi_Flavor": 4,
+                        "Fluffy_Pillow": 32,
+                        "Rohonc_2": 0.25,
+                        "Rohonc_3": 0.12,
+                        "Rohonc_4": 0.021
+                    }
+                },
+                {
+                    "type": "Quest",
+                    "level": 80,
+                    "number": 11,
+                    "cost": 20,
+                    "group": 3,
+                    "initial": {
+                        "Youkai_MAX_Umeboshi_Flavor": 200,
+                        "New_Card_Pack": 450
+                    },
+                    "drops": {
+                        "Youkai_MAX_Umeboshi_Flavor": 4,
+                        "New_Card_Pack": 32,
+                        "Nebra_2": 0.25,
+                        "Nebra_3": 0.12,
+                        "Nebra_4": 0.021
+                    }
+                },
+                {
+                    "type": "Quest",
+                    "level": 80,
+                    "number": 12,
+                    "cost": 20,
+                    "group": 3,
+                    "initial": {
+                        "Youkai_MAX_Umeboshi_Flavor": 2000
+                    },
+                    "drops": {
+                        "Youkai_MAX_Umeboshi_Flavor": 36,
+                        "Antikythera_2": 0.25,
+                        "Antikythera_3": 0.12,
+                        "Antikythera_4": 0.021
+                    }
+                },
+                {
+                    "type": "Challenge",
+                    "level": 50,
+                    "number": 1,
+                    "cost": 5
+                },
+                {
+                    "type": "Challenge",
+                    "level": 85,
+                    "number": 2,
+                    "cost": 5
+                },
+                {
+                    "type": "Challenge",
+                    "level": 90,
+                    "number": 3,
+                    "cost": 5
+                },
+                {
+                    "type": "Challenge",
+                    "level": 90,
+                    "number": null,
+                    "cost": 5
                 }
             ]
         }
