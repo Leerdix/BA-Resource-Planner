@@ -500,12 +500,36 @@ function init() {
 
     colourTableRows("gear-table");
 
+    // Sets hasBondGear property from false to true for units that have gotten Bond Gear since last update
+    function updateBondGearAvailability() {
+        let changesPresent = false;
+
+        for (const charData of data.characters) {
+            const charInfo = charlist[charData.id];
+
+            if (!charData.hasBondGear) {
+                const hasBondGear = typeof charInfo.Gear === 'object' && Object.keys(charInfo.Gear).length > 0;
+                changesPresent = changesPresent || charData.hasBondGear !== hasBondGear;
+                console.log({has: charData.hasBondGear, fr: hasBondGear, name: charData.name});
+                charData.hasBondGear = hasBondGear;
+            }
+        }
+
+        if (!changesPresent) {
+            return;
+        }
+
+        saveToLocalStorage(false);
+    }
+
     if ("1.4.22".localeCompare(data.site_version ?? "0.0.0", undefined, { numeric: true, sensitivity: 'base' }) == 1) {
         Swal.fire({
             title: GetLanguageString("text-updatedversionprefix") + "1.4.22",
             color: alertColour,
             html: GetLanguageString("text-updatemessage")
         })
+
+        updateBondGearAvailability();
 
         data.site_version = "1.4.22";
         // saveToLocalStorage(false);
