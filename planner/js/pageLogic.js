@@ -117,7 +117,7 @@ function checkResources() {
         charMap = new Map()
         charNames = new Map()
 
-        let blockedIds = ["10099"];
+        let blockedIds = ["10099", "10144"];
 
         for (key in charlist) {
             if (blockedIds.includes(key)) {
