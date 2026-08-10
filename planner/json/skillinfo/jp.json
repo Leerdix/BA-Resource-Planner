@@ -9471,6 +9471,115 @@
                     }
                 ]
             },
+            "GearPublic": {
+                "Name": "広域射撃、開始+",
+                "Desc": "25秒毎に<b:EnhanceMysticRate>を<?1>加算（18秒間）/\n円形範囲内の敵に攻撃力の<?2>分のダメージ（この攻撃は敵の防御力を<?3>無視します）",
+                "Parameters": [
+                    [
+                        "16.4%",
+                        "17.3%",
+                        "17.7%",
+                        "20.9%",
+                        "21.4%",
+                        "22.2%",
+                        "23.8%",
+                        "24.7%",
+                        "25.1%",
+                        "28.4%"
+                    ],
+                    [
+                        "152%",
+                        "159%",
+                        "163%",
+                        "194%",
+                        "197%",
+                        "205%",
+                        "220%",
+                        "228%",
+                        "232%",
+                        "262%"
+                    ],
+                    [
+                        "24%",
+                        "24%",
+                        "24%",
+                        "28%",
+                        "28%",
+                        "28%",
+                        "32%",
+                        "32%",
+                        "32%",
+                        "44%"
+                    ]
+                ],
+                "Duration": 95,
+                "Range": 950,
+                "Radius": [
+                    {
+                        "Type": "Circle",
+                        "Radius": 150
+                    }
+                ],
+                "Icon": "COMMON_SKILLICON_CIRCLE",
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Block": 1,
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            10000
+                        ],
+                        "DescParamId": 2,
+                        "Scale": [
+                            15225,
+                            15990,
+                            16369,
+                            19415,
+                            19794,
+                            20559,
+                            22082,
+                            22840,
+                            23220,
+                            26266
+                        ],
+                        "IgnoreDef": [
+                            7600,
+                            7600,
+                            7600,
+                            7200,
+                            7200,
+                            7200,
+                            6800,
+                            6800,
+                            6800,
+                            5600
+                        ]
+                    },
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                1647,
+                                1730,
+                                1772,
+                                2099,
+                                2141,
+                                2223,
+                                2387,
+                                2470,
+                                2511,
+                                2841
+                            ]
+                        ],
+                        "Stat": "EnhanceMysticRate_Base",
+                        "Channel": 34,
+                        "Duration": 18000
+                    }
+                ]
+            },
             "Passive": {
                 "Name": "火力強化、完了",
                 "Desc": "<b:ATK>を<?1>増加",
@@ -48520,7 +48629,7 @@
                         "Scale": [
                             10000
                         ],
-                        "OverrideSkillType": "Ex",
+                        "OverrideSkillDamageType": "Ex",
                         "Block": 1
                     }
                 ],
@@ -48848,8 +48957,8 @@
                     {
                         "Type": "Damage",
                         "Block": 0,
-                        "OverrideSkillType": "Ex",
                         "CriticalCheck": "Check",
+                        "OverrideSkillDamageType": "Ex",
                         "Hits": [
                             800,
                             800,
@@ -51751,7 +51860,7 @@
                         "Stat": "EnhanceExplosionRate_Base",
                         "Channel": 32,
                         "Duration": 20000,
-                        "ApplyFrame": 21
+                        "ApplyFrame": 20
                     }
                 ]
             },
@@ -51995,6 +52104,2004 @@
                         ],
                         "Stat": "EnhanceExplosionRate_Base",
                         "Channel": 132
+                    }
+                ]
+            }
+        }
+    },
+    "10143": {
+        "Name": "シュン（水着）",
+        "Skills": {
+            "Normal": {
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Hits": [
+                            10000
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Block": 1
+                    }
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 24,
+                    "AttackStartDuration": 32,
+                    "AttackEndDuration": 32,
+                    "AttackBurstRoundOverDelay": 50,
+                    "AttackIngDuration": 28,
+                    "AttackReloadDuration": 83
+                }
+            },
+            "Ex": {
+                "Name": "おうちに帰るまでが旅行ですよ",
+                "Desc": "敵1人に対して攻撃力の<?1>分のダメージ/\n<s:CH0355_01_03_ExtraPassive>を獲得（9秒間）、EXスキルをすぐに1回ドロー/\n<s:CH0355_01_03_ExtraPassive>を保有している間、「ちゃんと聞いてくださいね？」にスキルが変更されます。<s:CH0355_01_03_ExtraPassive>の解除時、EXスキルカードをデッキの最後尾に移動",
+                "Parameters": [
+                    [
+                        "629%",
+                        "723%",
+                        "912%",
+                        "1006%",
+                        "1195%"
+                    ]
+                ],
+                "Cost": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "Duration": 96,
+                "Range": 950,
+                "Icon": "COMMON_SKILLICON_TARGET",
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Block": 1,
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            3333,
+                            3333,
+                            3334
+                        ],
+                        "DescParamId": 1,
+                        "Scale": [
+                            62916,
+                            72359,
+                            91231,
+                            100667,
+                            119546
+                        ]
+                    }
+                ],
+                "ExtraSkills": [
+                    {
+                        "Id": "CH0355_01Ex02",
+                        "Name": "ちゃんと聞いてくださいね？",
+                        "Desc": "敵1人に対して攻撃力の<?1>分のダメージ\n（<s:CH0355_01_03_ExtraPassive>保有時に消費可能）",
+                        "Parameters": [
+                            [
+                                "730%",
+                                "839%",
+                                "1058%",
+                                "1168%",
+                                "1387%"
+                            ]
+                        ],
+                        "Cost": [
+                            3,
+                            3,
+                            3,
+                            3,
+                            3
+                        ],
+                        "Duration": 96,
+                        "Range": 950,
+                        "Icon": "COMMON_SKILLICON_TARGET",
+                        "Effects": [
+                            {
+                                "Type": "Damage",
+                                "Block": 1,
+                                "CriticalCheck": "Check",
+                                "Hits": [
+                                    3333,
+                                    3333,
+                                    3334
+                                ],
+                                "DescParamId": 1,
+                                "Scale": [
+                                    73010,
+                                    83965,
+                                    105868,
+                                    116816,
+                                    138719
+                                ]
+                            }
+                        ],
+                        "Type": "Ex"
+                    }
+                ]
+            },
+            "Public": {
+                "Name": "ダメですよ？",
+                "Desc": "40秒毎に、敵1人に対して攻撃力の<?1>分のダメージ",
+                "Parameters": [
+                    [
+                        "444%",
+                        "466%",
+                        "488%",
+                        "533%",
+                        "555%",
+                        "577%",
+                        "622%",
+                        "644%",
+                        "666%",
+                        "711%"
+                    ]
+                ],
+                "Duration": 127,
+                "Range": 950,
+                "Icon": "COMMON_SKILLICON_TARGET",
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Block": 1,
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            10000
+                        ],
+                        "DescParamId": 1,
+                        "Scale": [
+                            44443,
+                            46669,
+                            48888,
+                            53333,
+                            55559,
+                            57778,
+                            62223,
+                            64442,
+                            66668,
+                            71113
+                        ]
+                    }
+                ]
+            },
+            "Passive": {
+                "Name": "バカンス中の教官",
+                "Desc": "<b:ATK>を<?1>増加",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2,
+                        "Value": [
+                            [
+                                1400,
+                                1470,
+                                1540,
+                                1820,
+                                1890,
+                                1960,
+                                2240,
+                                2310,
+                                2380,
+                                2660
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "WeaponPassive": {
+                "Name": "バカンス中の教官+",
+                "Desc": "<b:EnhanceSonicRate>を<?1>加算/\nさらに<b:ATK>を<?2>増加",
+                "Parameters": [
+                    [
+                        "26%",
+                        "27.3%",
+                        "28.6%",
+                        "33.8%",
+                        "35.1%",
+                        "36.4%",
+                        "41.6%",
+                        "42.9%",
+                        "44.2%",
+                        "49.4%"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "EnhanceSonicRate_Base",
+                        "Channel": 1743,
+                        "Value": [
+                            [
+                                2600,
+                                2730,
+                                2860,
+                                3380,
+                                3510,
+                                3640,
+                                4160,
+                                4290,
+                                4420,
+                                4940
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "ExtraPassive": {
+                "Name": "梅花園の教え",
+                "Desc": "<s:CH0355_01_03_ExtraPassive>獲得時とそれ以降3秒毎に、<s:CH0355_01_03_ExtraPassive>が変化（最大3段階）/\n「ちゃんと聞いてくださいね？」使用時、<s:CH0355_01_03_ExtraPassive>を消耗して、変化した<s:CH0355_01_03_ExtraPassive>の段階によって<b:DamageRatio>が<?1>増加（3秒間）",
+                "Parameters": [
+                    [
+                        "9.8%",
+                        "10.2%",
+                        "10.7%",
+                        "12.7%",
+                        "13.2%",
+                        "13.7%",
+                        "15.6%",
+                        "16.1%",
+                        "16.6%",
+                        "18.6%"
+                    ]
+                ],
+                "Icon": "SKILLICON_CH0355_01_EXTRAPASSIVESKILL",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                980,
+                                1029,
+                                1078,
+                                1273,
+                                1322,
+                                1371,
+                                1567,
+                                1616,
+                                1665,
+                                1861
+                            ],
+                            [
+                                1960,
+                                2058,
+                                2156,
+                                2546,
+                                2644,
+                                2742,
+                                3134,
+                                3232,
+                                3330,
+                                3722
+                            ],
+                            [
+                                2940,
+                                3087,
+                                3234,
+                                3819,
+                                3966,
+                                4113,
+                                4701,
+                                4848,
+                                4995,
+                                5583
+                            ]
+                        ],
+                        "StackLabel": [
+                            {
+                                "Icon": "buff/Special_CH0355_01_01_ExtraPassive.webp",
+                                "Label": "1"
+                            },
+                            {
+                                "Icon": "buff/Special_CH0355_01_02_ExtraPassive.webp",
+                                "Label": "2"
+                            },
+                            {
+                                "Icon": "buff/Special_CH0355_01_03_ExtraPassive.webp",
+                                "Label": "3"
+                            }
+                        ],
+                        "Stat": "DamageRatio2_Coefficient",
+                        "Channel": 41,
+                        "Duration": 3000
+                    }
+                ]
+            }
+        }
+    },
+    "10144": {
+        "Name": "シュン（水着）",
+        "Skills": {
+            "Normal": {
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Hits": [
+                            10000
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Block": 1
+                    }
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 49,
+                    "AttackStartDuration": 63,
+                    "AttackEndDuration": 34,
+                    "AttackBurstRoundOverDelay": 46,
+                    "AttackIngDuration": 49,
+                    "AttackReloadDuration": 76
+                }
+            },
+            "Ex": {
+                "Name": "抱っこしてください！",
+                "Desc": "敵1人に対して攻撃力の<?1>分のダメージ/\n使用する度に、この戦闘中「抱っこしてください！」のダメージが攻撃力の<?2>分減少します（最大3回まで重複）",
+                "Parameters": [
+                    [
+                        "769%",
+                        "885%",
+                        "1116%",
+                        "1231%",
+                        "1462%"
+                    ],
+                    [
+                        "153%",
+                        "176%",
+                        "222%",
+                        "245%",
+                        "290%"
+                    ]
+                ],
+                "Cost": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ],
+                "Duration": 144,
+                "Range": 950,
+                "Icon": "COMMON_SKILLICON_TARGET",
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Group": 0,
+                        "Block": 1,
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            5000,
+                            5000
+                        ],
+                        "DescParamId": 1,
+                        "Scale": [
+                            76986,
+                            88534,
+                            111631,
+                            123180,
+                            146277
+                        ]
+                    },
+                    {
+                        "Type": "Damage",
+                        "Group": 1,
+                        "Block": 3,
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            5000,
+                            5000
+                        ],
+                        "DescParamId": 2,
+                        "Scale": [
+                            61684,
+                            70939,
+                            89442,
+                            98697,
+                            117200
+                        ]
+                    },
+                    {
+                        "Type": "Damage",
+                        "Group": 2,
+                        "Block": 3,
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            5000,
+                            5000
+                        ],
+                        "DescParamId": 3,
+                        "Scale": [
+                            46384,
+                            53339,
+                            67242,
+                            74197,
+                            88200
+                        ]
+                    },
+                    {
+                        "Type": "Damage",
+                        "Group": 3,
+                        "Block": 3,
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            5000,
+                            5000
+                        ],
+                        "DescParamId": 4,
+                        "Scale": [
+                            31084,
+                            35739,
+                            45042,
+                            49697,
+                            59200
+                        ]
+                    }
+                ],
+                "GroupLabel": {
+                    "0": {
+                        "Label": "1"
+                    },
+                    "1": {
+                        "Label": "2"
+                    },
+                    "2": {
+                        "Label": "3"
+                    },
+                    "3": {
+                        "Label": "4+"
+                    }
+                }
+            },
+            "Public": {
+                "Name": "集中しないと！",
+                "Desc": "戦闘開始時、編成した味方生徒1人当たり、スキルコストを<?1>獲得（最大6人まで）（戦闘中に1回のみ）/\nただし自分以外にも、戦闘開始時にコストを獲得する生徒が部隊にいる場合、このスキルではスキルコストを獲得しません。",
+                "Parameters": [
+                    [
+                        "0.37",
+                        "0.39",
+                        "0.41",
+                        "0.48",
+                        "0.5",
+                        "0.52",
+                        "0.6",
+                        "0.61",
+                        "0.63",
+                        "0.71"
+                    ]
+                ],
+                "Duration": 79,
+                "Icon": "COMMON_SKILLICON_REGENCOST",
+                "Effects": []
+            },
+            "Passive": {
+                "Name": "子供のパワー",
+                "Desc": "<b:CriticalChance>を<?1>増加",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "CriticalPoint_Coefficient",
+                        "Channel": 9,
+                        "Value": [
+                            [
+                                1400,
+                                1470,
+                                1540,
+                                1820,
+                                1890,
+                                1960,
+                                2240,
+                                2310,
+                                2380,
+                                2660
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "WeaponPassive": {
+                "Name": "子供のパワー+",
+                "Desc": "<b:ATK>を<?1>増加/\nさらに<b:CriticalChance>を<?2>増加",
+                "Parameters": [
+                    [
+                        "520",
+                        "546",
+                        "572",
+                        "676",
+                        "702",
+                        "728",
+                        "832",
+                        "858",
+                        "884",
+                        "988"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "AttackPower_Base",
+                        "Channel": 1702,
+                        "Value": [
+                            [
+                                520,
+                                546,
+                                572,
+                                676,
+                                702,
+                                728,
+                                832,
+                                858,
+                                884,
+                                988
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "ExtraPassive": {
+                "Name": "リゾートのお楽しみ",
+                "Desc": "EXスキルの使用中、<b:EnhanceSonicRate>を<?1>加算",
+                "Parameters": [
+                    [
+                        "41.4%",
+                        "43.5%",
+                        "45.6%",
+                        "53.9%",
+                        "56%",
+                        "58%",
+                        "66.3%",
+                        "68.4%",
+                        "70.5%",
+                        "78.8%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_BULLETTYPEBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                4148,
+                                4356,
+                                4563,
+                                5393,
+                                5600,
+                                5807,
+                                6637,
+                                6844,
+                                7051,
+                                7881
+                            ]
+                        ],
+                        "Stat": "EnhanceSonicRate_Base",
+                        "Channel": 43
+                    }
+                ]
+            }
+        }
+    },
+    "10145": {
+        "Name": "キサキ（水着）",
+        "Skills": {
+            "Normal": {
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Hits": [
+                            3333,
+                            3333,
+                            3334
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Block": 1
+                    }
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 46,
+                    "AttackStartDuration": 17,
+                    "AttackEndDuration": 31,
+                    "AttackBurstRoundOverDelay": 60,
+                    "AttackIngDuration": 24,
+                    "AttackReloadDuration": 72
+                }
+            },
+            "Ex": {
+                "Name": "宣言：本日休業",
+                "Desc": "自身を除き編成したストライカーの味方の内、最も近い味方3人のスキルコストを1減少（EXスキルの使用1回分）/\n自身の<b:CostRegen>を<?1>増加（5秒間）/\n自身の次の2回分のEXスキルを「実行：ばんざい体操」に変更",
+                "Parameters": [
+                    [
+                        "856",
+                        "984",
+                        "1240",
+                        "1369",
+                        "1625"
+                    ]
+                ],
+                "Cost": [
+                    2,
+                    2,
+                    2,
+                    2,
+                    2
+                ],
+                "Duration": 215,
+                "Range": 750,
+                "Icon": "COMMON_SKILLICON_COSTDECREASE",
+                "Effects": [
+                    {
+                        "Type": "CostChange",
+                        "Target": "Ally",
+                        "ValueType": "BaseAmount",
+                        "Uses": 1,
+                        "ApplyFrame": 57,
+                        "Scale": [
+                            -1,
+                            -1,
+                            -1,
+                            -1,
+                            -1
+                        ]
+                    },
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                856,
+                                984,
+                                1240,
+                                1369,
+                                1625
+                            ]
+                        ],
+                        "Stat": "RegenCost_Base",
+                        "Channel": 30,
+                        "Duration": 5000,
+                        "ApplyFrame": 37
+                    }
+                ],
+                "ExtraSkills": [
+                    {
+                        "Id": "CH0356Ex02",
+                        "Name": "実行：ばんざい体操",
+                        "Desc": "自身の<b:CostRegen>を<?1>増加（5秒間）/\n「実行：ばんざい体操」を2回使用後、「宣言：本日休業」にスキルが変更されます。",
+                        "Parameters": [
+                            [
+                                "1316",
+                                "1513",
+                                "1908",
+                                "2105",
+                                "2500"
+                            ]
+                        ],
+                        "Cost": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "Duration": 210,
+                        "Icon": "COMMON_SKILLICON_REGENCOST",
+                        "Effects": [
+                            {
+                                "Type": "Buff",
+                                "Target": [
+                                    "Self"
+                                ],
+                                "Value": [
+                                    [
+                                        1316,
+                                        1513,
+                                        1908,
+                                        2105,
+                                        2500
+                                    ]
+                                ],
+                                "Stat": "RegenCost_Base",
+                                "Channel": 30,
+                                "Duration": 5000
+                            }
+                        ],
+                        "Type": "Ex"
+                    }
+                ]
+            },
+            "Public": {
+                "Name": "決定：強制執行",
+                "Desc": "45秒毎に、敵1人の<d:CriticalChanceResistPoint>を<?1>減少（32秒間）/\n攻撃力の<?2>分のダメージ",
+                "Parameters": [
+                    [
+                        "18.9%",
+                        "19.9%",
+                        "20.8%",
+                        "24.6%",
+                        "25.6%",
+                        "26.5%",
+                        "30.3%",
+                        "31.3%",
+                        "32.2%",
+                        "36%"
+                    ],
+                    [
+                        "218%",
+                        "228%",
+                        "239%",
+                        "283%",
+                        "294%",
+                        "305%",
+                        "348%",
+                        "359%",
+                        "370%",
+                        "414%"
+                    ]
+                ],
+                "Duration": 160,
+                "Range": 750,
+                "Icon": "COMMON_SKILLICON_STATDEBUFF",
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Block": 1,
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000,
+                            1000
+                        ],
+                        "DescParamId": 2,
+                        "Scale": [
+                            21805,
+                            22895,
+                            23984,
+                            28343,
+                            29432,
+                            30522,
+                            34880,
+                            35970,
+                            37060,
+                            41424
+                        ]
+                    },
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Enemy"
+                        ],
+                        "Value": [
+                            [
+                                -1899,
+                                -1994,
+                                -2089,
+                                -2468,
+                                -2563,
+                                -2658,
+                                -3038,
+                                -3133,
+                                -3227,
+                                -3607
+                            ]
+                        ],
+                        "Stat": "CriticalChanceResistPoint_Coefficient",
+                        "Channel": 622,
+                        "Duration": 32000,
+                        "ApplyFrame": 30
+                    }
+                ]
+            },
+            "Passive": {
+                "Name": "視察：現場調査",
+                "Desc": "<b:Range>を100、<b:MAXHP>を<?1>増加",
+                "Parameters": [
+                    [
+                        "11.2%",
+                        "11.7%",
+                        "12.3%",
+                        "14.5%",
+                        "15.1%",
+                        "15.6%",
+                        "17.9%",
+                        "18.4%",
+                        "19%",
+                        "21.2%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "MaxHP_Coefficient",
+                        "Channel": 1,
+                        "Value": [
+                            [
+                                1120,
+                                1176,
+                                1232,
+                                1456,
+                                1512,
+                                1568,
+                                1792,
+                                1848,
+                                1904,
+                                2128
+                            ]
+                        ]
+                    },
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "Range_Base",
+                        "Channel": 18,
+                        "Value": [
+                            [
+                                100,
+                                100,
+                                100,
+                                100,
+                                100,
+                                100,
+                                100,
+                                100,
+                                100,
+                                100
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "WeaponPassive": {
+                "Name": "視察：現場調査+",
+                "Desc": "<b:ExtendBuffDuration>を<?1>増加/\nさらに<b:Range>を100、<b:MAXHP>を<?2>増加",
+                "Parameters": [
+                    [
+                        "1000",
+                        "1050",
+                        "1100",
+                        "1300",
+                        "1350",
+                        "1400",
+                        "1600",
+                        "1650",
+                        "1700",
+                        "1900"
+                    ],
+                    [
+                        "11.2%",
+                        "11.7%",
+                        "12.3%",
+                        "14.5%",
+                        "15.1%",
+                        "15.6%",
+                        "17.9%",
+                        "18.4%",
+                        "19%",
+                        "21.2%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "ExtendBuffDuration_Base",
+                        "Channel": 1738,
+                        "Value": [
+                            [
+                                1000,
+                                1050,
+                                1100,
+                                1300,
+                                1350,
+                                1400,
+                                1600,
+                                1650,
+                                1700,
+                                1900
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "ExtraPassive": {
+                "Name": "療養：英気回復",
+                "Desc": "味方が会心を200回成功した時、自身に対して治癒力の<?1>分の回復",
+                "Parameters": [
+                    [
+                        "97.5%",
+                        "102%",
+                        "107%",
+                        "126%",
+                        "131%",
+                        "136%",
+                        "156%",
+                        "160%",
+                        "165%",
+                        "185%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_HEAL",
+                "Effects": [
+                    {
+                        "Type": "Heal",
+                        "Target": "Self",
+                        "Scale": [
+                            9750,
+                            10238,
+                            10725,
+                            12675,
+                            13163,
+                            13650,
+                            15600,
+                            16088,
+                            16575,
+                            18525
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "10146": {
+        "Name": "マコト（水着）",
+        "Skills": {
+            "Normal": {
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Hits": [
+                            10000
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Block": 1
+                    }
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 38,
+                    "AttackStartDuration": 21,
+                    "AttackIngDuration": 36,
+                    "AttackEndDuration": 21,
+                    "AttackBurstRoundOverDelay": 42,
+                    "AttackReloadDuration": 72
+                }
+            },
+            "Ex": {
+                "Name": "遥かなる水平線を目指して！",
+                "Desc": "敵1人に攻撃力の<?1>分のダメージ/\n円形範囲内の敵の数によって、範囲内の敵に対してダメージ\n2人以下：攻撃力の<?2>分のダメージ\n3人以上：攻撃力の<?3>分のダメージ",
+                "Parameters": [
+                    [
+                        "145%",
+                        "166%",
+                        "210%",
+                        "232%",
+                        "275%"
+                    ],
+                    [
+                        "169%",
+                        "194%",
+                        "245%",
+                        "270%",
+                        "321%"
+                    ],
+                    [
+                        "401%",
+                        "461%",
+                        "581%",
+                        "642%",
+                        "762%"
+                    ]
+                ],
+                "Cost": [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6
+                ],
+                "Duration": 173,
+                "Range": 950,
+                "Radius": [
+                    {
+                        "Type": "Circle",
+                        "Radius": 350
+                    }
+                ],
+                "Icon": "COMMON_SKILLICON_CIRCLE",
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Block": 1,
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            10000
+                        ],
+                        "DescParamId": 1,
+                        "Scale": [
+                            14505,
+                            16679,
+                            21028,
+                            23202,
+                            27551
+                        ]
+                    },
+                    {
+                        "Type": "Damage",
+                        "Block": 0,
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            2000,
+                            2000,
+                            2000,
+                            2000,
+                            2000
+                        ],
+                        "DescParamId": 2,
+                        "Scale": [
+                            16920,
+                            19459,
+                            24530,
+                            27069,
+                            32140
+                        ]
+                    },
+                    {
+                        "Type": "Damage",
+                        "Block": 0,
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            2000,
+                            2000,
+                            2000,
+                            2000,
+                            2000
+                        ],
+                        "DescParamId": 3,
+                        "Scale": [
+                            40135,
+                            46150,
+                            58187,
+                            64209,
+                            76246
+                        ]
+                    }
+                ]
+            },
+            "Public": {
+                "Name": "我らのキャプテン！",
+                "Desc": "戦闘開始時とそれ以降、30秒毎に攻撃力を<?1>分増加（25秒間）/\n<s:CH0344_ExtraPassive>状態を付与",
+                "Parameters": [
+                    [
+                        "17.5%",
+                        "18.3%",
+                        "19.2%",
+                        "22.7%",
+                        "23.6%",
+                        "24.5%",
+                        "28%",
+                        "28.9%",
+                        "29.7%",
+                        "33.2%"
+                    ]
+                ],
+                "Duration": 82,
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                1752,
+                                1839,
+                                1928,
+                                2278,
+                                2365,
+                                2453,
+                                2803,
+                                2891,
+                                2978,
+                                3328
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2,
+                        "Duration": 25000,
+                        "ApplyFrame": 20
+                    }
+                ]
+            },
+            "Passive": {
+                "Name": "隠されし実力？",
+                "Desc": "<b:ATK>を<?1>増加",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2,
+                        "Value": [
+                            [
+                                1400,
+                                1470,
+                                1540,
+                                1820,
+                                1890,
+                                1960,
+                                2240,
+                                2310,
+                                2380,
+                                2660
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "WeaponPassive": {
+                "Name": "隠されし実力？+",
+                "Desc": "<b:EnhanceMysticRate>を<?1>加算/\nさらに<b:ATK>を<?2>増加",
+                "Parameters": [
+                    [
+                        "26%",
+                        "27.3%",
+                        "28.6%",
+                        "33.8%",
+                        "35.1%",
+                        "36.4%",
+                        "41.6%",
+                        "42.9%",
+                        "44.2%",
+                        "49.4%"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "EnhanceMysticRate_Base",
+                        "Channel": 1734,
+                        "Value": [
+                            [
+                                2600,
+                                2730,
+                                2860,
+                                3380,
+                                3510,
+                                3640,
+                                4160,
+                                4290,
+                                4420,
+                                4940
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "ExtraPassive": {
+                "Name": "カリスマ船長",
+                "Desc": "<b:CriticalChance>を<?1>増加/\n<s:CH0344_ExtraPassive>状態の時、EXスキルの対象が<b class='ba-col-mystic'>特殊装甲</b>の場合、攻撃する前に<d:DEF>を<?2>減少（21秒間）/\n<s:CH0344_ExtraPassive>状態を解除",
+                "Parameters": [
+                    [
+                        "10%",
+                        "10.5%",
+                        "11%",
+                        "13.1%",
+                        "13.6%",
+                        "14.1%",
+                        "16.1%",
+                        "16.6%",
+                        "17.1%",
+                        "19.1%"
+                    ],
+                    [
+                        "11.4%",
+                        "12%",
+                        "12.6%",
+                        "14.9%",
+                        "15.5%",
+                        "16%",
+                        "18.3%",
+                        "18.9%",
+                        "19.5%",
+                        "21.8%"
+                    ]
+                ],
+                "Icon": "SKILLICON_CH0344_EXTRAPASSIVESKILL",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                1008,
+                                1059,
+                                1109,
+                                1311,
+                                1361,
+                                1412,
+                                1613,
+                                1664,
+                                1714,
+                                1916
+                            ]
+                        ],
+                        "Stat": "CriticalPoint_Coefficient",
+                        "Channel": 9
+                    },
+                    {
+                        "Type": "Buff",
+                        "Restrictions": [
+                            {
+                                "Property": "ArmorType",
+                                "Operand": "Equal",
+                                "Value": "Unarmed"
+                            }
+                        ],
+                        "Target": [
+                            "Enemy"
+                        ],
+                        "Value": [
+                            [
+                                -1148,
+                                -1206,
+                                -1263,
+                                -1493,
+                                -1550,
+                                -1608,
+                                -1837,
+                                -1895,
+                                -1952,
+                                -2182
+                            ]
+                        ],
+                        "Stat": "DefensePower_Coefficient",
+                        "Channel": 603,
+                        "Duration": 21000
+                    }
+                ]
+            }
+        }
+    },
+    "10147": {
+        "Name": "サツキ（水着）",
+        "Skills": {
+            "Normal": {
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Hits": [
+                            10000
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Block": 1
+                    }
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 35,
+                    "AttackStartDuration": 21,
+                    "AttackEndDuration": 27,
+                    "AttackBurstRoundOverDelay": 50,
+                    "AttackIngDuration": 22,
+                    "AttackReloadDuration": 60
+                }
+            },
+            "Ex": {
+                "Name": "京極サツキ流の安全対策",
+                "Desc": "自身を除き味方1人に対して治癒力の<?1>分の回復/\n自身は治癒力の<?2>分の回復/\n<s:CH0345_ExtraPassive_01>を1個獲得（<s:CH0345_ExtraPassive_01>は最大3個まで重複）",
+                "Parameters": [
+                    [
+                        "164%",
+                        "189%",
+                        "238%",
+                        "263%",
+                        "312%"
+                    ],
+                    [
+                        "115%",
+                        "115%",
+                        "132%",
+                        "132%",
+                        "150%"
+                    ]
+                ],
+                "Cost": [
+                    2,
+                    2,
+                    2,
+                    2,
+                    2
+                ],
+                "Duration": 176,
+                "Range": 850,
+                "Icon": "COMMON_SKILLICON_HEAL",
+                "Effects": [
+                    {
+                        "Type": "Heal",
+                        "Target": "Ally",
+                        "ApplyFrame": 15,
+                        "Scale": [
+                            16470,
+                            18940,
+                            23880,
+                            26350,
+                            31290
+                        ]
+                    },
+                    {
+                        "Type": "Heal",
+                        "Target": "Self",
+                        "ApplyFrame": 77,
+                        "Scale": [
+                            11558,
+                            11558,
+                            13290,
+                            13290,
+                            15025
+                        ]
+                    }
+                ]
+            },
+            "Public": {
+                "Name": "きゃっ！？なに！？",
+                "Desc": "30秒毎に、敵1人に対して<d:DEF>を<?1>減少（26秒間）/\n攻撃力の<?2>分のダメージ/\n<s:CH0345_ExtraPassive_01>を1個獲得（<s:CH0345_ExtraPassive_01>は最大3個まで重複）",
+                "Parameters": [
+                    [
+                        "20.3%",
+                        "20.3%",
+                        "20.3%",
+                        "22.3%",
+                        "22.3%",
+                        "22.3%",
+                        "24.4%",
+                        "24.4%",
+                        "24.4%",
+                        "26.4%"
+                    ],
+                    [
+                        "197%",
+                        "207%",
+                        "216%",
+                        "236%",
+                        "246%",
+                        "256%",
+                        "275%",
+                        "285%",
+                        "295%",
+                        "315%"
+                    ]
+                ],
+                "Duration": 193,
+                "Range": 750,
+                "Icon": "COMMON_SKILLICON_STATDEBUFF",
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Block": 0,
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            10000
+                        ],
+                        "DescParamId": 2,
+                        "Scale": [
+                            19713,
+                            20700,
+                            21679,
+                            23652,
+                            24639,
+                            25626,
+                            27592,
+                            28579,
+                            29565,
+                            31531
+                        ]
+                    },
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Enemy"
+                        ],
+                        "Value": [
+                            [
+                                -2034,
+                                -2034,
+                                -2034,
+                                -2238,
+                                -2238,
+                                -2238,
+                                -2441,
+                                -2441,
+                                -2441,
+                                -2644
+                            ]
+                        ],
+                        "Stat": "DefensePower_Coefficient",
+                        "Channel": 603,
+                        "Duration": 26000,
+                        "ApplyFrame": 41
+                    }
+                ]
+            },
+            "Passive": {
+                "Name": "塗ってあげる",
+                "Desc": "<b:HealPower>を<?1>増加",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "HealPower_Coefficient",
+                        "Channel": 4,
+                        "Value": [
+                            [
+                                1400,
+                                1470,
+                                1540,
+                                1820,
+                                1890,
+                                1960,
+                                2240,
+                                2310,
+                                2380,
+                                2660
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "WeaponPassive": {
+                "Name": "塗ってあげる+",
+                "Desc": "<b:MAXHP>を<?1>増加/\nさらに<b:HealPower>を<?2>増加",
+                "Parameters": [
+                    [
+                        "3716",
+                        "3901",
+                        "4087",
+                        "4830",
+                        "5016",
+                        "5202",
+                        "5945",
+                        "6131",
+                        "6316",
+                        "7059"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "MaxHP_Base",
+                        "Channel": 1701,
+                        "Value": [
+                            [
+                                3716,
+                                3901,
+                                4087,
+                                4830,
+                                5016,
+                                5202,
+                                5945,
+                                6131,
+                                6316,
+                                7059
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "ExtraPassive": {
+                "Name": "いってらっしゃい",
+                "Desc": "<s:CH0345_ExtraPassive_01>を3個獲得時、自分を除くストライカーの味方に対して、治癒力の<?1>分の回復\n<s:CH0345_ExtraPassive_02>を付与（30秒間）<s:CH0345_ExtraPassive_02>は<b:ATK>を<?2>増加（<s:CH0345_ExtraPassive_01>は初期化されます）",
+                "Parameters": [
+                    [
+                        "48.6%",
+                        "51%",
+                        "53.5%",
+                        "63.2%",
+                        "65.6%",
+                        "68%",
+                        "77.8%",
+                        "80.2%",
+                        "82.6%",
+                        "92.3%"
+                    ],
+                    [
+                        "10.3%",
+                        "10.8%",
+                        "11.3%",
+                        "13.4%",
+                        "13.9%",
+                        "14.4%",
+                        "16.5%",
+                        "17%",
+                        "17.5%",
+                        "19.6%"
+                    ]
+                ],
+                "Icon": "SKILLICON_CH0345_EXTRAPASSIVESKILL",
+                "Effects": [
+                    {
+                        "Type": "Heal",
+                        "Target": "Ally",
+                        "Scale": [
+                            4863,
+                            5105,
+                            5350,
+                            6323,
+                            6565,
+                            6808,
+                            7780,
+                            8023,
+                            8265,
+                            9238
+                        ]
+                    },
+                    {
+                        "Type": "Buff",
+                        "Icon": "Special_CH0345_ExtraPassive_01",
+                        "Target": [
+                            "AllyMain"
+                        ],
+                        "Value": [
+                            [
+                                1032,
+                                1083,
+                                1135,
+                                1341,
+                                1393,
+                                1444,
+                                1650,
+                                1702,
+                                1753,
+                                1960
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 90247,
+                        "Duration": 30000
+                    }
+                ]
+            }
+        }
+    },
+    "10148": {
+        "Name": "イロハ（水着）",
+        "Skills": {
+            "Normal": {
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Hits": [
+                            10000
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Block": 1
+                    }
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 42,
+                    "AttackStartDuration": 19,
+                    "AttackEndDuration": 26,
+                    "AttackBurstRoundOverDelay": 60,
+                    "AttackIngDuration": 20,
+                    "AttackReloadDuration": 85
+                }
+            },
+            "Ex": {
+                "Name": "フロイラインのスーツケース",
+                "Desc": "敵1人に対して、攻撃力の<?1>分の確定会心ダメージ、<s:CH0346_Ex>を付与（15秒間）/\n<s:CH0346_ExtraPassive>の生徒が<s:CH0346_Ex>を付与された敵に与えたダメージを1.5倍分として<s:CH0346_Ex>に保存。\n持続時間終了時またはイロハ（水着）のEXスキルの使用時に<s:CH0346_Ex>が爆発し、対象に保存した分の固定ダメージ\n（固定ダメージは<s:CH0346_Ex>を付与した時にイロハ(水着)が与えたダメージの120%まで）",
+                "Parameters": [
+                    [
+                        "881%",
+                        "1013%",
+                        "1278%",
+                        "1410%",
+                        "1674%"
+                    ]
+                ],
+                "Cost": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                "Duration": 200,
+                "Range": 850,
+                "Icon": "SKILLICON_CH0346_EXSKILL",
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Block": 0,
+                        "CriticalCheck": "Always",
+                        "Hits": [
+                            10000
+                        ],
+                        "DescParamId": 1,
+                        "Scale": [
+                            88153,
+                            101378,
+                            127822,
+                            141040,
+                            167490
+                        ]
+                    }
+                ]
+            },
+            "Public": {
+                "Name": "お互い苦労しますね",
+                "Desc": "35秒毎に、<s:CH0346_ExtraPassive>の生徒と自身の<b:ATK>を<?1>増加（30秒間）",
+                "Parameters": [
+                    [
+                        "13.7%",
+                        "14.4%",
+                        "15.1%",
+                        "17.9%",
+                        "18.6%",
+                        "19.3%",
+                        "22%",
+                        "22.7%",
+                        "23.4%",
+                        "26.1%"
+                    ]
+                ],
+                "Duration": 176,
+                "Range": 850,
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                1379,
+                                1447,
+                                1517,
+                                1792,
+                                1861,
+                                1930,
+                                2205,
+                                2274,
+                                2343,
+                                2618
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2,
+                        "Duration": 30000,
+                        "ApplyFrame": 70
+                    },
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "AllyMain"
+                        ],
+                        "Value": [
+                            [
+                                1379,
+                                1447,
+                                1517,
+                                1792,
+                                1861,
+                                1930,
+                                2205,
+                                2274,
+                                2343,
+                                2618
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 102,
+                        "Duration": 30000,
+                        "ApplyFrame": 70
+                    }
+                ]
+            },
+            "Passive": {
+                "Name": "弱点を見つけました",
+                "Desc": "<b:CriticalDamage>率を<?1>増加",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "CriticalDamageRate_Coefficient",
+                        "Channel": 11,
+                        "Value": [
+                            [
+                                1400,
+                                1470,
+                                1540,
+                                1820,
+                                1890,
+                                1960,
+                                2240,
+                                2310,
+                                2380,
+                                2660
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "WeaponPassive": {
+                "Name": "弱点を見つけました+",
+                "Desc": "<b:EnhanceExplosionRate>を<?1>加算/\nさらに<b:CriticalDamage>率を<?2>増加",
+                "Parameters": [
+                    [
+                        "26%",
+                        "27.3%",
+                        "28.6%",
+                        "33.8%",
+                        "35.1%",
+                        "36.4%",
+                        "41.6%",
+                        "42.9%",
+                        "44.2%",
+                        "49.4%"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "EnhanceExplosionRate_Base",
+                        "Channel": 1732,
+                        "Value": [
+                            [
+                                2600,
+                                2730,
+                                2860,
+                                3380,
+                                3510,
+                                3640,
+                                4160,
+                                4290,
+                                4420,
+                                4940
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "ExtraPassive": {
+                "Name": "協同作戦ですか",
+                "Desc": "<b:ATK>を<?1>増加/\n戦術入場時、自身を除き編成したストライカーの味方の内、会心ダメージ率が最も高い1人を<s:CH0346_ExtraPassive>に指定\n（アタッカーの味方を優先指定）",
+                "Parameters": [
+                    [
+                        "13.2%",
+                        "13.9%",
+                        "14.6%",
+                        "17.2%",
+                        "17.9%",
+                        "18.5%",
+                        "21.2%",
+                        "21.9%",
+                        "22.5%",
+                        "25.2%"
+                    ]
+                ],
+                "Icon": "SKILLICON_CH0346_EXTRAPASSIVESKILL",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Value": [
+                            [
+                                1328,
+                                1394,
+                                1461,
+                                1726,
+                                1792,
+                                1859,
+                                2124,
+                                2191,
+                                2257,
+                                2523
+                            ]
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2
                     }
                 ]
             }
@@ -56609,7 +58716,7 @@
             },
             "Public": {
                 "Name": "夏の情熱水流",
-                "Desc": "戦闘開始時とその以降、40秒毎に<b:EnhanceExDamageRate>を<?1>加算、<b:CriticalDamage>率を<?2>増加（33秒間）/\n<s:CH0302_Public>を2個獲得（<s:CH0302_Public>は最大3個まで重複）",
+                "Desc": "戦闘開始時とそれ以降、40秒毎に<b:EnhanceExDamageRate>を<?1>加算、<b:CriticalDamage>率を<?2>増加（33秒間）/\n<s:CH0302_Public>を2個獲得（<s:CH0302_Public>は最大3個まで重複）",
                 "Parameters": [
                     [
                         "12.4%",
@@ -69218,6 +71325,59 @@
                     }
                 ]
             },
+            "GearPublic": {
+                "Name": "めんどくさいですね……+",
+                "Desc": "40秒毎に、最大で敵4人に対して順番に砲弾発射。さらにその敵を中心とした円形範囲内の敵に対して、それぞれ攻撃力の<?1>分のダメージ/\n虎丸がいる場合はさらに、虎丸に<s:CH0156_GearPublic>を付与/\n虎丸が<s:CH0156_GearPublic>を保有している状態で「主砲照準、発射」の使用時、虎丸の<s:CH0156_GearPublic>を消耗して「主砲照準、発射」のダメージが0.5倍加算",
+                "Parameters": [
+                    [
+                        "51.3%",
+                        "53.8%",
+                        "56.4%",
+                        "66.7%",
+                        "69.2%",
+                        "71.8%",
+                        "82%",
+                        "84.6%",
+                        "87.1%",
+                        "97.4%"
+                    ]
+                ],
+                "Duration": 60,
+                "Range": 1000,
+                "Radius": [
+                    {
+                        "Type": "Circle",
+                        "Radius": 200
+                    }
+                ],
+                "Icon": "COMMON_SKILLICON_CIRCLE",
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Block": 0,
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            10000,
+                            10000,
+                            10000,
+                            10000
+                        ],
+                        "DescParamId": 1,
+                        "Scale": [
+                            5131,
+                            5383,
+                            5642,
+                            6671,
+                            6923,
+                            7182,
+                            8204,
+                            8463,
+                            8715,
+                            9744
+                        ]
+                    }
+                ]
+            },
             "Passive": {
                 "Name": "仕方ありません",
                 "Desc": "<b:ATK>を<?1>増加",
@@ -80676,7 +82836,7 @@
         "Skills": {
             "Ex": {
                 "Name": "屋外用の車椅子ですから",
-                "Desc": "ヒマリ（臨戦）が屋外用車椅子に乗って登場。屋外用車椅子はヒマリ（臨戦）の最大HPの<?1>分の値が追加されたHPを持ちます。（30秒間）/\n指定した対象を中心とした円形範囲内の味方に対して、3秒毎に治癒力の<?2>分の回復（最大5回）（3秒間）\n（タクティカルサポートの搭乗物は重複して登場することはできません）",
+                "Desc": "ヒマリ（臨戦）が屋外用車椅子に乗って登場。屋外用車椅子はヒマリ（臨戦）の最大HPの<?1>分の値が追加されたHPを持ちます。（30秒間）/\n指定した対象を中心とした円形範囲内の味方に対して、0.5秒毎に治癒力の<?2>分の回復（最大5回）（3秒間）\n（タクティカルサポートの搭乗物は重複して登場することはできません）",
                 "Parameters": [
                     [
                         "10.7%",
@@ -81581,7 +83741,7 @@
         "Skills": {
             "Ex": {
                 "Name": "基本に忠実に",
-                "Desc": "敵1人に対して対象が<b class='ba-col-explosion'>軽装備</b>の場合、被特効ダメージ量を<?1>加算（27秒間）/\n自身に対して<b:EnhanceBasicsDamageRate>を<?2>加算（10秒間）",
+                "Desc": "敵1人に対して対象が<b class='ba-col-explosion'>軽装備</b>の場合、<d:ReduceWeakDamagedRate>を<?1>加算（27秒間）/\n自身に対して<b:EnhanceBasicsDamageRate>を<?2>加算（10秒間）",
                 "Parameters": [
                     [
                         "8.5%",
@@ -82375,6 +84535,450 @@
                         ],
                         "Stat": "AttackPower_Coefficient",
                         "Channel": 302
+                    }
+                ]
+            }
+        }
+    },
+    "20060": {
+        "Name": "イブキ（水着）",
+        "Skills": {
+            "Ex": {
+                "Name": "イブキのお友達！",
+                "Desc": "編成したストライカーの味方2人まで<s:CH0347_Ex_03>に指定/\n今回の戦闘中「どれがいいかな？」にスキルが変更されます。EXスキルをすぐに1回ドロー/\nイブキ（水着）は<s:CH0347_Ex_03>の生徒がコストを消費した時、<s:CH0347_Ex_02>を3個獲得し、<s:CH0347_Ex_02>が12個になると、すべて消費して<s:CH0347_Ex_01>を獲得し、以降<s:CH0347_Ex_02>を獲得しません。",
+                "Parameters": [],
+                "Cost": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Duration": 30,
+                "Range": 1000,
+                "Icon": "SKILLICON_CH0347_EXSKILL",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "AllyMain"
+                        ],
+                        "Value": [
+                            [
+                                3197,
+                                3676,
+                                4634,
+                                5114,
+                                6072
+                            ],
+                            [
+                                3836.3999999999996,
+                                4411.2,
+                                5560.8,
+                                6136.8,
+                                7286.4
+                            ]
+                        ],
+                        "Stat": "CriticalDamageRate_Coefficient",
+                        "Channel": 111,
+                        "Duration": 28000
+                    }
+                ],
+                "ExtraSkills": [
+                    {
+                        "Id": "CH0347Ex02",
+                        "Name": "どれがいいかな？",
+                        "Desc": "<s:CH0347_Ex_03>の生徒の<b:CriticalDamage>率を<?1>増加（28秒間）/\n<s:CH0347_Ex_01>保有時、このスキルを強化して、与える<b:CriticalDamage>率増加効果を0.2倍加算",
+                        "Parameters": [
+                            [
+                                "31.9%",
+                                "36.7%",
+                                "46.3%",
+                                "51.1%",
+                                "60.7%"
+                            ]
+                        ],
+                        "Cost": [
+                            3,
+                            3,
+                            3,
+                            3,
+                            3
+                        ],
+                        "Duration": 190,
+                        "Range": 1000,
+                        "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                        "Effects": [],
+                        "Type": "Ex"
+                    }
+                ]
+            },
+            "Public": {
+                "Name": "イブキも手伝う！",
+                "Desc": "「イブキのお友達！」使用後30秒毎に、<s:CH0347_Ex_03>の生徒のそれぞれのクラスに応じて効果を付与（20秒間）/\nタンク：<b:DEF>を<?1>増加\nアタッカー：<b:CriticalDamage>率を<?2>増加\nサポーター：治癒力の<?3>分の<b:DotHeal>を付与\nヒーラー：<b:HealPower>を<?4>増加\n2人の<s:CH0347_Ex_03>の生徒のクラスが同じ場合、効果が2倍に増加/\n<s:CH0347_Ex_01>保有時、スキルが強化され、効果持続時間が25秒に増加",
+                "Parameters": [
+                    [
+                        "7.9%",
+                        "8.3%",
+                        "8.7%",
+                        "10.3%",
+                        "10.7%",
+                        "11.1%",
+                        "12.7%",
+                        "13.1%",
+                        "13.5%",
+                        "15.1%"
+                    ],
+                    [
+                        "7.9%",
+                        "8.3%",
+                        "8.7%",
+                        "10.3%",
+                        "10.7%",
+                        "11.1%",
+                        "12.7%",
+                        "13.1%",
+                        "13.5%",
+                        "15.1%"
+                    ],
+                    [
+                        "7.5%",
+                        "7.9%",
+                        "8.3%",
+                        "9.8%",
+                        "10.2%",
+                        "10.5%",
+                        "12%",
+                        "12.4%",
+                        "12.8%",
+                        "14.3%"
+                    ],
+                    [
+                        "7.9%",
+                        "8.3%",
+                        "8.7%",
+                        "10.3%",
+                        "10.7%",
+                        "11.1%",
+                        "12.7%",
+                        "13.1%",
+                        "13.5%",
+                        "15.1%"
+                    ]
+                ],
+                "Duration": 30,
+                "Range": 1000,
+                "Icon": "SKILLICON_CH0347_PUBLICSKILL",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Restrictions": [
+                            {
+                                "Property": "TacticRole",
+                                "Operand": "Equal",
+                                "Value": "DamageDealer"
+                            }
+                        ],
+                        "Target": [
+                            "AllyMain"
+                        ],
+                        "Value": [
+                            [
+                                799,
+                                839,
+                                879,
+                                1039,
+                                1078,
+                                1118,
+                                1278,
+                                1318,
+                                1358,
+                                1517
+                            ],
+                            [
+                                1598,
+                                1678,
+                                1758,
+                                2078,
+                                2156,
+                                2236,
+                                2556,
+                                2636,
+                                2716,
+                                3034
+                            ]
+                        ],
+                        "Stat": "CriticalDamageRate_Coefficient",
+                        "Channel": 111,
+                        "Duration": 20000,
+                        "ApplyFrame": 21
+                    },
+                    {
+                        "Type": "Buff",
+                        "Restrictions": [
+                            {
+                                "Property": "TacticRole",
+                                "Operand": "Equal",
+                                "Value": "Tanker"
+                            }
+                        ],
+                        "Target": [
+                            "AllyMain"
+                        ],
+                        "Value": [
+                            [
+                                799,
+                                839,
+                                879,
+                                1039,
+                                1078,
+                                1118,
+                                1278,
+                                1318,
+                                1358,
+                                1517
+                            ],
+                            [
+                                1598,
+                                1678,
+                                1758,
+                                2078,
+                                2156,
+                                2236,
+                                2556,
+                                2636,
+                                2716,
+                                3034
+                            ]
+                        ],
+                        "Stat": "DefensePower_Coefficient",
+                        "Channel": 103,
+                        "Duration": 20000,
+                        "ApplyFrame": 21
+                    },
+                    {
+                        "Type": "Regen",
+                        "Target": "Ally",
+                        "Duration": 20000,
+                        "Period": 4000,
+                        "ApplyFrame": 21,
+                        "Scale": [
+                            756,
+                            793,
+                            831,
+                            981,
+                            1020,
+                            1057,
+                            1208,
+                            1246,
+                            1284,
+                            1434
+                        ]
+                    },
+                    {
+                        "Type": "Regen",
+                        "Target": "Ally",
+                        "Duration": 20000,
+                        "Period": 4000,
+                        "ApplyFrame": 21,
+                        "Scale": [
+                            1512,
+                            1586,
+                            1662,
+                            1962,
+                            2040,
+                            2114,
+                            2416,
+                            2492,
+                            2568,
+                            2868
+                        ]
+                    },
+                    {
+                        "Type": "Buff",
+                        "Restrictions": [
+                            {
+                                "Property": "TacticRole",
+                                "Operand": "Equal",
+                                "Value": "Healer"
+                            }
+                        ],
+                        "Target": [
+                            "AllyMain"
+                        ],
+                        "Value": [
+                            [
+                                799,
+                                839,
+                                879,
+                                1039,
+                                1078,
+                                1118,
+                                1278,
+                                1318,
+                                1358,
+                                1517
+                            ],
+                            [
+                                1598,
+                                1678,
+                                1758,
+                                2078,
+                                2156,
+                                2236,
+                                2556,
+                                2636,
+                                2716,
+                                3034
+                            ]
+                        ],
+                        "Stat": "HealPower_Coefficient",
+                        "Channel": 104,
+                        "Duration": 20000,
+                        "ApplyFrame": 21
+                    }
+                ]
+            },
+            "Passive": {
+                "Name": "万魔殿の良心",
+                "Desc": "<b:HealPower>を<?1>増加",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "HealPower_Coefficient",
+                        "Channel": 4,
+                        "Value": [
+                            [
+                                1400,
+                                1470,
+                                1540,
+                                1820,
+                                1890,
+                                1960,
+                                2240,
+                                2310,
+                                2380,
+                                2660
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "WeaponPassive": {
+                "Name": "万魔殿の良心+",
+                "Desc": "<b:ExtendBuffDuration>を<?1>増加/\nさらに<b:HealPower>を<?2>増加",
+                "Parameters": [
+                    [
+                        "1000",
+                        "1050",
+                        "1100",
+                        "1300",
+                        "1350",
+                        "1400",
+                        "1600",
+                        "1650",
+                        "1700",
+                        "1900"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "ExtendBuffDuration_Base",
+                        "Channel": 1738,
+                        "Value": [
+                            [
+                                1000,
+                                1050,
+                                1100,
+                                1300,
+                                1350,
+                                1400,
+                                1600,
+                                1650,
+                                1700,
+                                1900
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "ExtraPassive": {
+                "Name": "ちびっこ天才ハカセ",
+                "Desc": "味方の<b:CostRegen>を<?1>増加",
+                "Parameters": [
+                    [
+                        "10.6%",
+                        "11.2%",
+                        "11.7%",
+                        "13.8%",
+                        "14.4%",
+                        "14.9%",
+                        "17%",
+                        "17.6%",
+                        "18.1%",
+                        "20.2%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_REGENCOST",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self",
+                            "AllyMain",
+                            "AllySupport"
+                        ],
+                        "Value": [
+                            [
+                                1068,
+                                1121,
+                                1175,
+                                1389,
+                                1442,
+                                1495,
+                                1709,
+                                1762,
+                                1815,
+                                2029
+                            ]
+                        ],
+                        "Stat": "RegenCost_Coefficient",
+                        "Channel": 330
                     }
                 ]
             }
@@ -83818,6 +86422,82 @@
                         "Channel": 122,
                         "Duration": 20000,
                         "ApplyFrame": 31
+                    }
+                ]
+            },
+            "GearPublic": {
+                "Name": "学習サポート+",
+                "Desc": "30秒毎に、ストライカーの味方の<b:CriticalChanceResistPoint>を<?1>増加（20秒間）、<s:Ayane_Original_GearPublic>を付与（戦闘中に1回のみ）/\n<s:Ayane_Original_GearPublic>を保有した味方のHPが45%以下の時、対象の<s:Ayane_Original_GearPublic>を消耗して治癒力の<?2>分の回復",
+                "Parameters": [
+                    [
+                        "17.5%",
+                        "18.4%",
+                        "19.3%",
+                        "22.8%",
+                        "23.7%",
+                        "24.5%",
+                        "28%",
+                        "28.9%",
+                        "29.8%",
+                        "33.3%"
+                    ],
+                    [
+                        "62.4%",
+                        "65.5%",
+                        "68.6%",
+                        "81.1%",
+                        "84.2%",
+                        "87.3%",
+                        "99.8%",
+                        "102%",
+                        "106%",
+                        "118%"
+                    ]
+                ],
+                "Duration": 90,
+                "Range": 1000,
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "AllyMain"
+                        ],
+                        "Value": [
+                            [
+                                1756,
+                                1844,
+                                1931,
+                                2282,
+                                2370,
+                                2457,
+                                2809,
+                                2896,
+                                2985,
+                                3335
+                            ]
+                        ],
+                        "Stat": "CriticalChanceResistPoint_Coefficient",
+                        "Channel": 122,
+                        "Duration": 20000,
+                        "ApplyFrame": 30
+                    },
+                    {
+                        "Type": "Heal",
+                        "Target": "Ally",
+                        "ApplyFrame": 30,
+                        "Scale": [
+                            6240,
+                            6553,
+                            6863,
+                            8113,
+                            8423,
+                            8735,
+                            9983,
+                            10295,
+                            10608,
+                            11855
+                        ]
                     }
                 ]
             },
@@ -89419,6 +92099,265 @@
                         ],
                         "Stat": "AttackSpeed_Coefficient",
                         "Channel": 324
+                    }
+                ]
+            }
+        }
+    },
+    "26016": {
+        "Name": "チアキ（水着）",
+        "Skills": {
+            "Ex": {
+                "Name": "楽しく遊びましょ！",
+                "Desc": "2発のロケット弾を発射し、最も近い敵に対して、それぞれ攻撃力の<?1>、 <?2>分のダメージ\n（これらの攻撃は敵の<b:Shield>を貫通）",
+                "Parameters": [
+                    [
+                        "530%",
+                        "610%",
+                        "769%",
+                        "849%",
+                        "1008%"
+                    ],
+                    [
+                        "267%",
+                        "307%",
+                        "387%",
+                        "427%",
+                        "508%"
+                    ]
+                ],
+                "Cost": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                "Duration": 205,
+                "Range": 1000,
+                "Icon": "COMMON_SKILLICON_TARGET",
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Block": 0,
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            10000
+                        ],
+                        "DescParamId": 1,
+                        "Scale": [
+                            53095,
+                            61054,
+                            76986,
+                            84945,
+                            100870
+                        ]
+                    },
+                    {
+                        "Type": "Damage",
+                        "Block": 0,
+                        "CriticalCheck": "Check",
+                        "Hits": [
+                            10000
+                        ],
+                        "DescParamId": 2,
+                        "Scale": [
+                            26747,
+                            30758,
+                            38780,
+                            42791,
+                            50820
+                        ]
+                    }
+                ]
+            },
+            "Public": {
+                "Name": "すごいですね！",
+                "Desc": "35秒毎に、敵1人の<d:CriticalDamageRateResist>率を<?1>減少（27秒間）",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "19%",
+                        "19.7%",
+                        "22.5%",
+                        "23.2%",
+                        "23.9%",
+                        "26.7%"
+                    ]
+                ],
+                "Duration": 120,
+                "Range": 1000,
+                "Icon": "COMMON_SKILLICON_STATDEBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Enemy"
+                        ],
+                        "Value": [
+                            [
+                                -1407,
+                                -1477,
+                                -1548,
+                                -1829,
+                                -1900,
+                                -1970,
+                                -2251,
+                                -2322,
+                                -2392,
+                                -2673
+                            ]
+                        ],
+                        "Stat": "CriticalDamageResistRate_Coefficient",
+                        "Channel": 623,
+                        "Duration": 27000,
+                        "ApplyFrame": 60
+                    }
+                ]
+            },
+            "Passive": {
+                "Name": "現場はこちら！",
+                "Desc": "<b:ATK>を<?1>増加",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "AttackPower_Coefficient",
+                        "Channel": 2,
+                        "Value": [
+                            [
+                                1400,
+                                1470,
+                                1540,
+                                1820,
+                                1890,
+                                1960,
+                                2240,
+                                2310,
+                                2380,
+                                2660
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "WeaponPassive": {
+                "Name": "現場はこちら！+",
+                "Desc": "<b:EnhancePierceRate>を<?1>加算/\nさらに<b:ATK>を<?2>増加",
+                "Parameters": [
+                    [
+                        "26%",
+                        "27.3%",
+                        "28.6%",
+                        "33.8%",
+                        "35.1%",
+                        "36.4%",
+                        "41.6%",
+                        "42.9%",
+                        "44.2%",
+                        "49.4%"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self"
+                        ],
+                        "Stat": "EnhancePierceRate_Base",
+                        "Channel": 1733,
+                        "Value": [
+                            [
+                                2600,
+                                2730,
+                                2860,
+                                3380,
+                                3510,
+                                3640,
+                                4160,
+                                4290,
+                                4420,
+                                4940
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "ExtraPassive": {
+                "Name": "特ダネ発見！",
+                "Desc": "味方の<b:EnhancePierceRate>を<?1>加算",
+                "Parameters": [
+                    [
+                        "15.9%",
+                        "16.7%",
+                        "17.5%",
+                        "20.7%",
+                        "21.5%",
+                        "22.3%",
+                        "25.5%",
+                        "26.3%",
+                        "27%",
+                        "30.2%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_BULLETTYPEBUFF",
+                "Effects": [
+                    {
+                        "Type": "Buff",
+                        "Target": [
+                            "Self",
+                            "AllyMain",
+                            "AllySupport"
+                        ],
+                        "Value": [
+                            [
+                                1594,
+                                1674,
+                                1753,
+                                2073,
+                                2152,
+                                2232,
+                                2550,
+                                2630,
+                                2709,
+                                3029
+                            ]
+                        ],
+                        "Stat": "EnhancePierceRate_Base",
+                        "Channel": 333
                     }
                 ]
             }
