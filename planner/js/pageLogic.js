@@ -522,16 +522,16 @@ function init() {
         saveToLocalStorage(false);
     }
 
-    if ("1.4.22".localeCompare(data.site_version ?? "0.0.0", undefined, { numeric: true, sensitivity: 'base' }) == 1) {
+    if ("1.4.23".localeCompare(data.site_version ?? "0.0.0", undefined, { numeric: true, sensitivity: 'base' }) == 1) {
         Swal.fire({
-            title: GetLanguageString("text-updatedversionprefix") + "1.4.22",
+            title: GetLanguageString("text-updatedversionprefix") + "1.4.23",
             color: alertColour,
             html: GetLanguageString("text-updatemessage")
         })
 
         updateBondGearAvailability();
 
-        data.site_version = "1.4.22";
+        data.site_version = "1.4.23";
         // saveToLocalStorage(false);
     }
 
