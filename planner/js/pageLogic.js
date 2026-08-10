@@ -4925,12 +4925,21 @@ function updateMatDisplay(matName, matValue, editable, type) {
     else {
         var textElement = document.getElementById(matName);
         var inputElement = document.getElementById("input-" + matName);
+        var scaleLimit = inputValidation[matName].scale_limit;
+
+        if (typeof scaleLimit === 'undefined') {
+            scaleLimit = Infinity;
+        } else {
+            scaleLimit = Number(scaleLimit);
+        }
+
         if (matValue == 0) {
             textElement.innerText = '';
         }
         else {
             textElement.innerText = matValue;
         }
+        textElement.classList.toggle("large-quantity", matValue > scaleLimit);
         inputElement.value = textElement.innerText;
         if (editable || matName.includes("XP_")) {
             textElement.parentElement.classList.add("editable");
@@ -5394,6 +5403,13 @@ function updatedResource() {
     var newCount = this.value;
     var matName = this.id.substring(6);
     var textElement = document.getElementById(matName);
+    var scaleLimit = inputValidation[matName].scale_limit;
+
+    if (typeof scaleLimit === 'undefined') {
+        scaleLimit = Infinity;
+    } else {
+        scaleLimit = Number(scaleLimit);
+    }
 
     var nonCentred = false;
     if (textElement.classList.contains('misc-resource')) {
@@ -5410,6 +5426,7 @@ function updatedResource() {
         this.parentElement.classList.add("empty-resource");
         if (textElement != null) {
             textElement.innerText = '';
+            textElement.classList.remove("large-quantity");
         }
         newCount = 0;
     }
@@ -5426,6 +5443,7 @@ function updatedResource() {
             }
             else {
                 textElement.innerText = newCount;
+                textElement.classList.toggle("large-quantity", newCount > scaleLimit);
             }
         }
     }

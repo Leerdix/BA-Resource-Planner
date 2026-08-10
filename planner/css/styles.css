@@ -677,10 +677,18 @@ label {
     padding-top: 1px;
 }
 
+.large-quantity {
+    font-size: 20px;
+}
+
 div.editable .resource-count-text,
 div.editable .gear-count-text,
 div.editable .resource-display-text {
     font-size: 20px;
+}
+
+div.editable .large-quantity {
+    font-size: 16px;
 }
 
 .resource-table tr td.editable:hover p {

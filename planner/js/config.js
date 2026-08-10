@@ -1661,308 +1661,352 @@ const inputValidation = {
         "id": "input-BD_1_Abydos",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_1_Gehenna": {
         "id": "input-BD_1_Gehenna",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_1_Millennium": {
         "id": "input-BD_1_Millennium",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_1_Trinity": {
         "id": "input-BD_1_Trinity",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_1_Hyakkiyako": {
         "id": "input-BD_1_Hyakkiyako",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_1_Shanhaijing": {
         "id": "input-BD_1_Shanhaijing",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_1_Arius": {
         "id": "input-BD_1_Arius",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_1_RedWinter": {
         "id": "input-BD_1_RedWinter",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_1_Valkyrie": {
         "id": "input-BD_1_Valkyrie",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_1_Highlander": {
         "id": "input-BD_1_Highlander",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_1_Wildhunt": {
         "id": "input-BD_1_Wildhunt",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_2_Abydos": {
         "id": "input-BD_2_Abydos",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_2_Gehenna": {
         "id": "input-BD_2_Gehenna",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_2_Millennium": {
         "id": "input-BD_2_Millennium",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_2_Trinity": {
         "id": "input-BD_2_Trinity",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_2_Hyakkiyako": {
         "id": "input-BD_2_Hyakkiyako",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_2_Shanhaijing": {
         "id": "input-BD_2_Shanhaijing",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_2_Arius": {
         "id": "input-BD_2_Arius",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_2_RedWinter": {
         "id": "input-BD_2_RedWinter",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_2_Valkyrie": {
         "id": "input-BD_2_Valkyrie",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable",
     },
     "BD_2_Highlander": {
         "id": "input-BD_2_Highlander",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_2_Wildhunt": {
         "id": "input-BD_2_Wildhunt",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_3_Abydos": {
         "id": "input-BD_3_Abydos",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_3_Gehenna": {
         "id": "input-BD_3_Gehenna",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_3_Millennium": {
         "id": "input-BD_3_Millennium",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_3_Trinity": {
         "id": "input-BD_3_Trinity",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_3_Hyakkiyako": {
         "id": "input-BD_3_Hyakkiyako",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_3_Shanhaijing": {
         "id": "input-BD_3_Shanhaijing",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_3_Arius": {
         "id": "input-BD_3_Arius",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_3_RedWinter": {
         "id": "input-BD_3_RedWinter",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_3_Valkyrie": {
         "id": "input-BD_3_Valkyrie",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable",
     },
     "BD_3_Highlander": {
         "id": "input-BD_3_Highlander",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_3_Wildhunt": {
         "id": "input-BD_3_Wildhunt",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_4_Abydos": {
         "id": "input-BD_4_Abydos",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_4_Gehenna": {
         "id": "input-BD_4_Gehenna",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_4_Millennium": {
         "id": "input-BD_4_Millennium",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_4_Trinity": {
         "id": "input-BD_4_Trinity",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_4_Hyakkiyako": {
         "id": "input-BD_4_Hyakkiyako",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_4_Shanhaijing": {
         "id": "input-BD_4_Shanhaijing",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_4_Arius": {
         "id": "input-BD_4_Arius",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_4_RedWinter": {
         "id": "input-BD_4_RedWinter",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_4_Valkyrie": {
         "id": "input-BD_4_Valkyrie",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_4_Highlander": {
         "id": "input-BD_4_Highlander",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "BD_4_Wildhunt": {
         "id": "input-BD_4_Wildhunt",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable",
         "Right": "input-TN_1_Hyakkiyako"
     },
@@ -1970,35 +2014,40 @@ const inputValidation = {
         "id": "input-TN_1_Abydos",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_1_Gehenna": {
         "id": "input-TN_1_Gehenna",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_1_Millennium": {
         "id": "input-TN_1_Millennium",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_1_Trinity": {
         "id": "input-TN_1_Trinity",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_1_Hyakkiyako": {
         "id": "input-TN_1_Hyakkiyako",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable",
         "Left": "input-BD_4_Wildhunt",
     },
@@ -2006,273 +2055,312 @@ const inputValidation = {
         "id": "input-TN_1_Shanhaijing",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_1_Arius": {
         "id": "input-TN_1_Arius",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_1_RedWinter": {
         "id": "input-TN_1_RedWinter",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_1_Valkyrie": {
         "id": "input-TN_1_Valkyrie",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_1_Highlander": {
         "id": "input-TN_1_Highlander",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_1_Wildhunt": {
         "id": "input-TN_1_Wildhunt",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_2_Abydos": {
         "id": "input-TN_2_Abydos",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_2_Gehenna": {
         "id": "input-TN_2_Gehenna",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_2_Millennium": {
         "id": "input-TN_2_Millennium",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_2_Trinity": {
         "id": "input-TN_2_Trinity",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_2_Hyakkiyako": {
         "id": "input-TN_2_Hyakkiyako",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_2_Shanhaijing": {
         "id": "input-TN_2_Shanhaijing",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_2_Arius": {
         "id": "input-TN_2_Arius",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_2_RedWinter": {
         "id": "input-TN_2_RedWinter",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_2_Valkyrie": {
         "id": "input-TN_2_Valkyrie",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_2_Highlander": {
         "id": "input-TN_2_Highlander",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_2_Wildhunt": {
         "id": "input-TN_2_Wildhunt",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_3_Abydos": {
         "id": "input-TN_3_Abydos",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_3_Gehenna": {
         "id": "input-TN_3_Gehenna",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_3_Millennium": {
         "id": "input-TN_3_Millennium",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_3_Trinity": {
         "id": "input-TN_3_Trinity",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_3_Hyakkiyako": {
         "id": "input-TN_3_Hyakkiyako",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_3_Shanhaijing": {
         "id": "input-TN_3_Shanhaijing",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_3_Arius": {
         "id": "input-TN_3_Arius",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_3_RedWinter": {
         "id": "input-TN_3_RedWinter",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_3_Valkyrie": {
         "id": "input-TN_3_Valkyrie",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_3_Highlander": {
         "id": "input-TN_3_Highlander",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_3_Wildhunt": {
         "id": "input-TN_3_Wildhunt",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_4_Abydos": {
         "id": "input-TN_4_Abydos",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_4_Gehenna": {
         "id": "input-TN_4_Gehenna",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_4_Millennium": {
         "id": "input-TN_4_Millennium",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_4_Trinity": {
         "id": "input-TN_4_Trinity",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_4_Hyakkiyako": {
         "id": "input-TN_4_Hyakkiyako",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_4_Shanhaijing": {
         "id": "input-TN_4_Shanhaijing",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_4_Arius": {
         "id": "input-TN_4_Arius",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_4_RedWinter": {
         "id": "input-TN_4_RedWinter",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_4_Valkyrie": {
         "id": "input-TN_4_Valkyrie",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_4_Highlander": {
         "id": "input-TN_4_Highlander",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "TN_4_Wildhunt": {
         "id": "input-TN_4_Wildhunt",
         "location": "resourceModal",
         "min": "0",
-        "max": "999",
+        "max": "9999",
+        "scale_limit": "9999",
         "navigation": "resourceTable",
         "Right": "input-Nebra_1",
         "Down": "input-Nebra_1"
@@ -2281,7 +2369,8 @@ const inputValidation = {
         "id": "input-Nebra_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable",
         "Up": "input-TN_4_Wildhunt",
         "Left": "input-TN_4_Wildhunt",
@@ -2290,273 +2379,312 @@ const inputValidation = {
         "id": "input-Nebra_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Nebra_3": {
         "id": "input-Nebra_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Nebra_4": {
         "id": "input-Nebra_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Phaistos_1": {
         "id": "input-Phaistos_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable",
     },
     "Phaistos_2": {
         "id": "input-Phaistos_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Phaistos_3": {
         "id": "input-Phaistos_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Phaistos_4": {
         "id": "input-Phaistos_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Wolfsegg_1": {
         "id": "input-Wolfsegg_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Wolfsegg_2": {
         "id": "input-Wolfsegg_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Wolfsegg_3": {
         "id": "input-Wolfsegg_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Wolfsegg_4": {
         "id": "input-Wolfsegg_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Nimrud_1": {
         "id": "input-Nimrud_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Nimrud_2": {
         "id": "input-Nimrud_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Nimrud_3": {
         "id": "input-Nimrud_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Nimrud_4": {
         "id": "input-Nimrud_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Mandragora_1": {
         "id": "input-Mandragora_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Mandragora_2": {
         "id": "input-Mandragora_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Mandragora_3": {
         "id": "input-Mandragora_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Mandragora_4": {
         "id": "input-Mandragora_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Rohonc_1": {
         "id": "input-Rohonc_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Rohonc_2": {
         "id": "input-Rohonc_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Rohonc_3": {
         "id": "input-Rohonc_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Rohonc_4": {
         "id": "input-Rohonc_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Aether_1": {
         "id": "input-Aether_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Aether_2": {
         "id": "input-Aether_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Aether_3": {
         "id": "input-Aether_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Aether_4": {
         "id": "input-Aether_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Antikythera_1": {
         "id": "input-Antikythera_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Antikythera_2": {
         "id": "input-Antikythera_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Antikythera_3": {
         "id": "input-Antikythera_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Antikythera_4": {
         "id": "input-Antikythera_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Voynich_1": {
         "id": "input-Voynich_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Voynich_2": {
         "id": "input-Voynich_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Voynich_3": {
         "id": "input-Voynich_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Voynich_4": {
         "id": "input-Voynich_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Haniwa_1": {
         "id": "input-Haniwa_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Haniwa_2": {
         "id": "input-Haniwa_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Haniwa_3": {
         "id": "input-Haniwa_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Haniwa_4": {
         "id": "input-Haniwa_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable",
         "Right": "input-Totem_1"
     },
@@ -2564,119 +2692,136 @@ const inputValidation = {
         "id": "input-Baghdad_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Baghdad_2": {
         "id": "input-Baghdad_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Baghdad_3": {
         "id": "input-Baghdad_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Baghdad_4": {
         "id": "input-Baghdad_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Fleece_1": {
         "id": "input-Fleece_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Fleece_2": {
         "id": "input-Fleece_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Fleece_3": {
         "id": "input-Fleece_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Fleece_4": {
         "id": "input-Fleece_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Rocket_1": {
         "id": "input-Rocket_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Rocket_2": {
         "id": "input-Rocket_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Rocket_3": {
         "id": "input-Rocket_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Rocket_4": {
         "id": "input-Rocket_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Quimbaya_1": {
         "id": "input-Quimbaya_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Quimbaya_2": {
         "id": "input-Quimbaya_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Quimbaya_3": {
         "id": "input-Quimbaya_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Quimbaya_4": {
         "id": "input-Quimbaya_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Totem_1": {
         "id": "input-Totem_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable",
         "Left": "input-Haniwa_4"
     },
@@ -2684,161 +2829,184 @@ const inputValidation = {
         "id": "input-Totem_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Totem_3": {
         "id": "input-Totem_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Totem_4": {
         "id": "input-Totem_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Okiku_1": {
         "id": "input-Okiku_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Okiku_2": {
         "id": "input-Okiku_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Okiku_3": {
         "id": "input-Okiku_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Okiku_4": {
         "id": "input-Okiku_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Atlantis_1": {
         "id": "input-Atlantis_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Atlantis_2": {
         "id": "input-Atlantis_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Atlantis_3": {
         "id": "input-Atlantis_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Atlantis_4": {
         "id": "input-Atlantis_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Colgante_1": {
         "id": "input-Colgante_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Colgante_2": {
         "id": "input-Colgante_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Colgante_3": {
         "id": "input-Colgante_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Colgante_4": {
         "id": "input-Colgante_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "RomanDice_1": {
         "id": "input-RomanDice_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "RomanDice_2": {
         "id": "input-RomanDice_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "RomanDice_3": {
         "id": "input-RomanDice_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "RomanDice_4": {
         "id": "input-RomanDice_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Mystery_1": {
         "id": "input-Mystery_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Mystery_2": {
         "id": "input-Mystery_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Mystery_3": {
         "id": "input-Mystery_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Mystery_4": {
         "id": "input-Mystery_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "9999",
         "navigation": "resourceTable"
     },
     "Wavecat_Pillow": {
@@ -3090,7 +3258,7 @@ const inputValidation = {
         "id": "input-Credit",
         "location": "resourceModal",
         "min": "0",
-        "max": "10000000000",
+        "max": "50000000000",
         "navigation": "direct",
         "Right": "input-XP_1",
         "Down": "input-XP_1"
@@ -3099,7 +3267,7 @@ const inputValidation = {
         "id": "input-Secret",
         "location": "resourceModal",
         "min": "0",
-        "max": "99",
+        "max": "9999",
         "navigation": "direct",
         "Right": "input-Book_HP",
         "Left": "input-XP_1",
@@ -3110,7 +3278,8 @@ const inputValidation = {
         "id": "input-XP_4",
         "location": "resourceModal",
         "min": "0",
-        "max": "99999",
+        "max": "999999",
+        "scale_limit": "99999",
         "navigation": "direct",
         "Right": "input-Secret",
         "Left": "input-XP_3",
@@ -3121,7 +3290,8 @@ const inputValidation = {
         "id": "input-XP_3",
         "location": "resourceModal",
         "min": "0",
-        "max": "99999",
+        "max": "999999",
+        "scale_limit": "99999",
         "navigation": "direct",
         "Right": "input-XP_4",
         "Left": "input-XP_2",
@@ -3132,7 +3302,8 @@ const inputValidation = {
         "id": "input-XP_2",
         "location": "resourceModal",
         "min": "0",
-        "max": "99999",
+        "max": "999999",
+        "scale_limit": "99999",
         "navigation": "direct",
         "Right": "input-XP_3",
         "Left": "input-XP_1",
@@ -3143,7 +3314,8 @@ const inputValidation = {
         "id": "input-XP_1",
         "location": "resourceModal",
         "min": "0",
-        "max": "99999",
+        "max": "999999",
+        "scale_limit": "99999",
         "navigation": "direct",
         "Right": "input-XP_2",
         "Left": "input-Credit",
@@ -3154,7 +3326,8 @@ const inputValidation = {
         "id": "input-Book_HP",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "99999",
         "navigation": "direct",
         "Right": "input-Book_ATK",
         "Left": "input-Secret",
@@ -3164,7 +3337,8 @@ const inputValidation = {
         "id": "input-Book_ATK",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "99999",
         "navigation": "direct",
         "Right": "input-Book_Heal",
         "Left": "input-Book_HP",
@@ -3174,7 +3348,8 @@ const inputValidation = {
         "id": "input-Book_Heal",
         "location": "resourceModal",
         "min": "0",
-        "max": "9999",
+        "max": "99999",
+        "scale_limit": "99999",
         "navigation": "direct",
         "Left": "input-Book_ATK",
         "Up": "input-Secret",
