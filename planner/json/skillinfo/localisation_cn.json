@@ -166,6 +166,17 @@
         "Special_CH0172_Ex": "「索敌」",
         "Special_CH0174_Ex": "标记",
         "Special_CH0076_Ex": "「钥匙扣」",
-        "Special_CH0247_ExtraPassive": "「不可饶恕」"
+        "Special_CH0247_ExtraPassive": "「不可饶恕」",
+        "Special_CH0355_01_03_ExtraPassive": "「花蕾」",
+        "Special_Ayane_Original_GearPublic": "「救援物资」",
+        "Special_CH0156_GearPublic": "「榴弹装填」",
+        "Special_CH0344_ExtraPassive": "「魅力」",
+        "Special_CH0345_ExtraPassive_01": "「防晒霜」",
+        "Special_CH0345_ExtraPassive_02": "紫外线屏障",
+        "Special_CH0346_Ex": "Suitcase",
+        "Special_CH0346_ExtraPassive": "Partner",
+        "Special_CH0347_Ex_01": "Seashell Flower",
+        "Special_CH0347_Ex_02": "Seashells",
+        "Special_CH0347_Ex_03": "Friend"
     }
 }

@@ -117,7 +117,7 @@ function checkResources() {
         charMap = new Map()
         charNames = new Map()
 
-        let blockedIds = ["10099"];
+        let blockedIds = ["10099", "10144"];
 
         for (key in charlist) {
             if (blockedIds.includes(key)) {
@@ -500,14 +500,38 @@ function init() {
 
     colourTableRows("gear-table");
 
-    if ("1.4.22".localeCompare(data.site_version ?? "0.0.0", undefined, { numeric: true, sensitivity: 'base' }) == 1) {
+    // Sets hasBondGear property from false to true for units that have gotten Bond Gear since last update
+    function updateBondGearAvailability() {
+        let changesPresent = false;
+
+        for (const charData of data.characters) {
+            const charInfo = charlist[charData.id];
+
+            if (!charData.hasBondGear) {
+                const hasBondGear = typeof charInfo.Gear === 'object' && Object.keys(charInfo.Gear).length > 0;
+                changesPresent = changesPresent || charData.hasBondGear !== hasBondGear;
+                console.log({has: charData.hasBondGear, fr: hasBondGear, name: charData.name});
+                charData.hasBondGear = hasBondGear;
+            }
+        }
+
+        if (!changesPresent) {
+            return;
+        }
+
+        saveToLocalStorage(false);
+    }
+
+    if ("1.4.23".localeCompare(data.site_version ?? "0.0.0", undefined, { numeric: true, sensitivity: 'base' }) == 1) {
         Swal.fire({
-            title: GetLanguageString("text-updatedversionprefix") + "1.4.22",
+            title: GetLanguageString("text-updatedversionprefix") + "1.4.23",
             color: alertColour,
             html: GetLanguageString("text-updatemessage")
         })
 
-        data.site_version = "1.4.22";
+        updateBondGearAvailability();
+
+        data.site_version = "1.4.23";
         // saveToLocalStorage(false);
     }
 
@@ -4901,12 +4925,21 @@ function updateMatDisplay(matName, matValue, editable, type) {
     else {
         var textElement = document.getElementById(matName);
         var inputElement = document.getElementById("input-" + matName);
+        var scaleLimit = inputValidation[matName].scale_limit;
+
+        if (typeof scaleLimit === 'undefined') {
+            scaleLimit = Infinity;
+        } else {
+            scaleLimit = Number(scaleLimit);
+        }
+
         if (matValue == 0) {
             textElement.innerText = '';
         }
         else {
             textElement.innerText = matValue;
         }
+        textElement.classList.toggle("large-quantity", matValue > scaleLimit);
         inputElement.value = textElement.innerText;
         if (editable || matName.includes("XP_")) {
             textElement.parentElement.classList.add("editable");
@@ -5370,6 +5403,13 @@ function updatedResource() {
     var newCount = this.value;
     var matName = this.id.substring(6);
     var textElement = document.getElementById(matName);
+    var scaleLimit = inputValidation[matName].scale_limit;
+
+    if (typeof scaleLimit === 'undefined') {
+        scaleLimit = Infinity;
+    } else {
+        scaleLimit = Number(scaleLimit);
+    }
 
     var nonCentred = false;
     if (textElement.classList.contains('misc-resource')) {
@@ -5386,6 +5426,7 @@ function updatedResource() {
         this.parentElement.classList.add("empty-resource");
         if (textElement != null) {
             textElement.innerText = '';
+            textElement.classList.remove("large-quantity");
         }
         newCount = 0;
     }
@@ -5402,6 +5443,7 @@ function updatedResource() {
             }
             else {
                 textElement.innerText = newCount;
+                textElement.classList.toggle("large-quantity", newCount > scaleLimit);
             }
         }
     }
